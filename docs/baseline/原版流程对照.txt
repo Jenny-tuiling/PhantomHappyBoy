@@ -1,0 +1,128 @@
+1.7.3 本地流程与小朋友快乐玩底座对照
+日期：2026-11-21。范围：Lua 调用流程及已有本地原生接口的接线；非全地图实测。
+
+更新提示（2026-11-22）：最新候选另修了同席嵌套回调、延迟开门归还失败重试、
+背包读取异常误补葫芦。下文保留 11 月 21 日的审阅快照；prologue 已不再逐字节相同，
+锁定原片段由 23 调整为 21，具体差异与验证以 ../review-20261122/修复记录.txt 为准。
+
+一、基线必须分清
+原始源码：work/phantompact-1.7.3/platform/steam/ue4ss/Mods/PBZCoop/Scripts
+既有四人稳定版：work/local-base-analysis-20261120/snapshot/Scripts
+正在使用的新底座源码：work/local-base-20261121/candidate/Scripts
+本轮离线候选：work/local-base-20261121/travel-door-20261121/offline-candidate/Scripts
+原始 1.7.3 的 autostart 调用 localcoop.start；localfour 是后来本地四人适配，不能称原作者代码。
+files.json 保存上游与候选哈希，*.diff 为统一换行后的实际差异。
+*.segments.json 为四空格具名函数片段索引（含函数间注释/变量，不是完整 AST）。
+localcoop：136 个上游具名片段中 99 个逐字相同；pbz：299 个中 291 个相同。
+这些数字用于定位差异，不能作为正确率或通关率。
+
+二、执行原则
+开门、机关、对话、攀爬、船行、复活、切图继续调用原版 localcoop/pbz 的原生流程。
+四人适配只负责席位、每人状态、设备与视口映射、共享回调的唯一拥有者。
+已有复活点保护、血条刷新、AI 意图保持等修复保留，不因追求文件相同而撤销。
+剧情、存档、检查点仍只有游戏的一份，不复制出三套剧情，不强写通关旗标。
+不恢复原在线传输、远程幽灵、远程剧情同步；它们不是单机本地模式的执行路径。
+
+三、逐流程对照（位置均为原始 1.7.3；新位置可查 segments.json）
+
+1. 启动
+main.lua:545 起构造 pbz、status、hud、localcoop 等；autostart.lua 先应用配置，
+Role=local 时 localcoop.start 然后返回，不启动网络。
+候选 main.lua 用原生本地握手替代联网装配，再由 localfour.start 为 P2~PN 注入 state。
+保留设置页一次性多人选择、默认单人、人数和输入模式校验。
+
+2. 等待世界、创建玩家
+localcoop.tick:1251 -> 主机有效且非暂停/过场 -> respawn:538 -> spawnPawnForPlayer2。
+respawn 原片段保留；engine_bridge 使用原生成接口，localfour 扩展控制器 ID 和席位。
+CreatePlayer 额外初始化曾修改共享复活点，因此保留前后校验与恢复；失败接管重试同一个 Pawn。
+原版双人的单个 state 变成每个席位一个 state，不能共用 p2Pawn/p2Controller。
+
+3. 找目标、分配交互
+relayButtons:3225 -> interactP2:2526 -> findTarget:2207。
+findTarget、interactP2 原片段保留。真实交互按种类走不同入口：
+card：关闭已获得物品的提示；gap：目标 OnInteract(队友)；volume：队友组件 DoInteract，
+沿用原版攀爬重试；talk：P1 组件 SetCurrentInteractActor + DoInteract；
+铃铛先从 switch 转 talk；普通 switch：V.useAsTheirs；pickup：原背包入口。
+不能把“任何按钮”都改成门状态切换，也不能所有对象都强制走队友组件。
+
+4. 门、机关与原生后续
+V.useAsTheirs:2366 -> CheckAndForceEndInteract -> asPlayer1 临时借用 Pawn/Character ->
+DoInteract -> 恢复 P1 -> V.opening -> 原生 FinishMoveToAsync 回调 ->
+只在当前使用者上再次临时借用 -> V.afterUseStep 恢复 -> V.watchOpening:2393。
+watchOpening 检查真实 sequence、view、血量和交互状态；近景结束由 watchCloseUp 恢复镜头/输入。
+原生门脚本负责后续剧情或传送，模组没有“庞镇门打开就强制 TeleportTo”的新增分支。
+本轮候选保持原回调主体，增加每个门一个拥有者及唯一 native hook，避免三份 P2 回调互相覆盖。
+异常恢复、注册失败重试是显式例外，不改成功时的游戏入口。
+庞镇这次日志未捕获完整的关闭->开门->原生传送链，根因及此修正效果仍待同门实测。
+
+5. 对话、菜单、过场
+bellMenuUp:59、holdForScene:1597、holdForScreen:1631、followScene:1650、
+giveControlsBack:1896 原片段保留；watchPads 先调用这些，再进入扩展设备分支。
+多屏的显示区域、提示归属由适配层换算。已脱离 UI 树的旧对话不再永久占用输入，
+这是之前保留的对话修复；仍在显示的剧情不会被统一超时关闭。
+
+6. 船行、越区与跟随
+V.followBoat:1677、followJumps:344、followFog:1028 原片段保留。
+旧 moveBeside 仍执行原移动/等待落地流程，新增返回值校验及不同席位的偏移。
+手动安全归队/AI 归队是另一个有检查的入口，不拿它替换原生切图。
+
+7. 队友死亡、主机死亡、团灭
+respawn:538 与 revivePlayer1:1236 原恢复主体保留。
+原双人 tick 只判断一个队友；四人改为一个 partyHostStep 决策，再向所有队友分发恢复。
+共享主机复活只能执行一次，不能三名队友各自 Respawn 主角。
+全部倒地仍用游戏原生检查点；现有检查点保护不能删。
+尚未解决：partyAlive 使用绑定而非可靠物理在线状态、身旁偏移不保证地面安全。
+
+8. 休息、喝药与共享事件
+原 restPlayers、hookRest、hookSit；四人由 dispatchRest/dispatchSit 一次注册后逐席分发。
+V.medicineCounted:3162、V.beforeMedicine:3184、V.afterMedicine:3193 原片段保留。
+pbz.hookMedicine 的注册改为各自成功锁存，避免类暂未就绪后永不重试。
+四人的 medicineOwner 保证一次只借用一个角色，但同时喝药目前仍按候选先后选取，
+缺少可靠施药者证据；此项不能标为四人完全等价。
+
+9. HUD、血条、AI 提示
+原 HUD 创建/药物 UI 入口保留；按自身 Pawn 的实时血量刷新是已验证的修复。
+status 保留原提示控件工厂，去除网络连接状态，补充完整视口选择供各屏 AI/锁定条幅使用。
+AI 是用户的扩展，不属于原 1.7.3；原交互/菜单/死亡门禁只暂停 AI 输出，不清除启用意图。
+
+10. 切图
+原 localcoop.start:3270 注册 PreLoadMap：交回收益/战斗域/气槽 -> 控制器归零 ->
+移除本地队友 -> 清 HUD/场景/交互/死亡缓存 -> 新图就绪后 tick 重建。
+候选保持该顺序；失败阶段独立清理，防 RemovePlayer 抛错跳过后续。
+本地生命周期先使旧定时器失效，各席原清理后，再清整队路由/交互拥有者。
+新图只在有效主角就绪后重建；不把 PostLoadMap 等同于所有角色已经就绪。
+
+11. 战斗与 Boss 的既有例外
+原版 wakeEnemies/keepDomains/noticePlayer2 辅助队友独立战斗。
+当前仍保留此前针对 Boss 阶段误唤醒的保护：不强制激活隐藏阶段、不循环唤醒所有 Boss。
+这部分不是逐字复制原版；按此前暂停 Boss 调试的范围，本轮未撤销或再次修改。
+多队友对普通敌人优化开关的共享占用保留，避免一人离开就冻结另一人正在打的敌人。
+
+12. 已确认漏接、现已接回离线候选
+prologue.lua 原文件逐字节复制：读档后 15 秒检查，非序章且缺治疗葫芦才补给，
+死亡/过场时重试；没有自创序章跳过功能。
+freetravel.lua 原文件逐字节复制：FreeBellTravel 默认 on、off 可禁用；
+维持/返还穿行道具，不解锁地点，不修地图缩放/光标。
+main.lua 的配置读取后只装配这两个原模块，无第二套道具逻辑。
+原 prologue 对背包枚举异常的处理较宽松、freetravel 对加道具失败的统计不严格；
+本轮按原文件保留并记录，不能称这些上游行为已经通过所有异常场景验证。
+
+四、为什么不把全部网络文件重新加载
+原 autostart 的 local 分支在启动联网前返回；coop.tick:5308 在 net.enabled=false 时返回。
+story 的 extraTicks 由该循环调度，flowsync.tick:851 也有 net.enabled 门禁；
+qte.lua:64 明确限定联网客机，twins 的运行分支同样依赖联网。
+这些文件的存在不能证明本地门传送由它们完成。恢复远程同步可能改变共享世界剧情，
+因此只按有本地执行证据的功能补齐，没有伪造网络开启状态。
+
+五、自动验证与安装状态
+test_upstream_parity.py：23 段上游原片段一致性锁定；6 种交互分支对照，
+加葫芦/穿行道具两个原模块的模拟行为测试。总计 8 组行为案例。
+test_shared_interactions.py：12 项共享门回调/清理/异常检查，19 个 Lua 文件编译。
+test_offline_composition.py：10 项真实模块装配与生命周期模拟。
+这些都是隔离模拟；没有访问/修改用户游戏对象或存档，没有宣称实际过庞镇门。
+本轮仅修改 offline-candidate。正在使用的 candidate、D 盘、稳定/本地选择器清单均未更新。
+用户退出后才可备份安装；所有新增脚本需要登记 profile/manifest，并测试切回稳定版移除。
+
+待实机：同一未完成入口，1 号与队友分别操作到原生地图加载；
+四人跨图后的镜头、控制、复活点、AI 保持；两名队友同时喝药与单席生成失败另测。
+历史损坏进度是否可恢复单独判断，不用强开门、猜坐标或写任务旗标冒充修复。

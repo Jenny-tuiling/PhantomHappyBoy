@@ -1,0 +1,10 @@
+[
+  "preflight",
+  "fresh complete installation",
+  "duplicate blocked",
+  "modified file protected",
+  "uninstall preserves game",
+  "damaged payload blocked",
+  "path traversal blocked",
+  "wrong build blocked"
+]

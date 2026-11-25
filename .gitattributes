@@ -1,0 +1,2 @@
+# Preserve exact release bytes, including files covered by payload-manifest.json.
+* -text

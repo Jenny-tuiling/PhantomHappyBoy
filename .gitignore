@@ -1,0 +1,15 @@
+﻿# Personal/runtime state must never be published
+*.log
+*.sav
+*.dmp
+*.pdb
+**/game-path.txt
+**/four_bindings*.txt
+**/four_calibration*.txt
+**/full-install-record.json
+**/install-record.json
+**/FourPlayerBackups/
+**/State/ModelsRoot.txt
+**/State/ModelFolders.txt
+__pycache__/
+build/

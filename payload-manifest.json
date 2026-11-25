@@ -1,0 +1,2598 @@
+﻿[
+  {
+    "path": "dwmapi.dll",
+    "sha256": "21FAFB3E49958E2B16721D57D5C1AF3EFCAAAE6D91A430BB6124A67E80F5FB42"
+  },
+  {
+    "path": "ue4ss/LICENSE",
+    "sha256": "99E1D8F8B7CB68E8B2313380AE3B0C8115E39DFBC443FCF21FD67AB74CE1D57E"
+  },
+  {
+    "path": "ue4ss/MemberVariableLayout.ini",
+    "sha256": "8C5017D84C4553632B2FFBA320FF62D3998B273640E302A28B60D4BE98703FD0"
+  },
+  {
+    "path": "ue4ss/Mods/CheatManagerEnablerMod/Scripts/main.lua",
+    "sha256": "15C7722168EB8966ED454E900E04DE4B0ADE42657905D8016C0E0660C119CD9E"
+  },
+  {
+    "path": "ue4ss/Mods/ConsoleCommandsMod/Scripts/dump_object.lua",
+    "sha256": "365B7E8A803F8AE917F54F6C852854C681E388227DD1F94B0EA3F6FB938B5086"
+  },
+  {
+    "path": "ue4ss/Mods/ConsoleCommandsMod/Scripts/main.lua",
+    "sha256": "5BF33CD4EF9F6A155FE5F7842218A6486C2C227858FFD99806E75D81D0DA9F27"
+  },
+  {
+    "path": "ue4ss/Mods/ConsoleCommandsMod/Scripts/set.lua",
+    "sha256": "876E7DE49F0E30A4329C081472BC7D5E1948459C774B7ABBB8BE4B6323F16EC8"
+  },
+  {
+    "path": "ue4ss/Mods/ConsoleCommandsMod/Scripts/summon_unloaded_assets.lua",
+    "sha256": "194B557404B6078767F8B57B836AA44D084CF6F3F2CBDE71A6831857567F8103"
+  },
+  {
+    "path": "ue4ss/Mods/ConsoleEnablerMod/Scripts/main.lua",
+    "sha256": "4455BF19D498B74747EA17E61E118464FA3A010B8ECFEBC9C92804ECB73357AB"
+  },
+  {
+    "path": "ue4ss/Mods/mods.txt",
+    "sha256": "0B550D2D5B4C9FB760352A2057CD97F10773935A2E2BA469A36A9B7281CFC1F6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/compass_line.png",
+    "sha256": "820CF7F7675EAFAEFA6526278BFD8B0EADD3B9F75D1324EEE3B91A8ED62F7683"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/applied.png",
+    "sha256": "044BBB6A2899E698BBC83B78136B310E500B6641388CE83443B8114A59B501B2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/apply.png",
+    "sha256": "0165B0763395DB42723CCC11601A7B6079D4866572953B764B5E382C59E4FE9D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_back.png",
+    "sha256": "5F5E28AFEE152B58E3932B322C7883894FCF46AFD8104ACFAA9FF8D291A7695F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_bg.png",
+    "sha256": "65D040FB5B9F36DE62F1FB3E093BD481120A9296889DDCCEED3D2C6FFC3C1BB5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_host.png",
+    "sha256": "B49947F3EE0A38616D63CDABE61AAB6239F59A426DFEB8A89A33E8ECAD03E004"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_host_on.png",
+    "sha256": "1C1791D37100146592E72995D347DE2919E4594BF6220355A4F4327B989AD99A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_join.png",
+    "sha256": "170A07F0FA0EC3EB042A25EE461D02A60AF3064DC7147D2A6B95C79B5FE6398F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_join_on.png",
+    "sha256": "A2392BB16FDF8EBC5EE6AD12F462AC9C0CE82B91E5F658120391678DD60F9689"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_leave.png",
+    "sha256": "93A40688CC1505EDC24906974B63BCAFB13D4F8EA5D55E73DC662B75515E72AD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_other.png",
+    "sha256": "A3E58125D799828177B2A6748B9F5AAE783681E24883BC829EBD0935804FDB20"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_password.png",
+    "sha256": "C077FAF6DB4CD6D31DCA2AA6BC11B0040183CF681E88CA1BD6EFCB8A6F8F582C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_password_set.png",
+    "sha256": "71A2F4395B5295C444B03D57FBDAD1A6201C8BAF3741F10486A85E8CA89D3BFC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_paste.png",
+    "sha256": "35A0A7AC1BE0F9341DD7552A78CBD47A55DF4B57EBDFE3021483310AC7F03FC2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_settings.png",
+    "sha256": "80C208AAC188316B9F6C8651F39AE9759FF4B821824EB69C559EFF0D56262113"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_settings_bg.png",
+    "sha256": "070C3E1AF5C5B830DD3A614A53F1BEF2EBC9C7D851FEF43FA49B097356132F18"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_steam.png",
+    "sha256": "89B3D5019B1D501003B6C82AC7BA87A8C27FAC4175DA01EA458B14A66489E131"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_online_tailscale.png",
+    "sha256": "AA00E9083531DDD8FB898E10D92CAE38998EBD4DF52EC62010209519F7F1F310"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_goldmask.png",
+    "sha256": "74241738C96C08F830BC7F1FD9E5A33E814B00757A33C272854F964ABEE42F50"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_goldmask_locked.png",
+    "sha256": "FC7D14CF2DB6D75D834C4114BA4BBEAFED4AF26D4B020034310BEB63FC72AC0F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_here.png",
+    "sha256": "6CAADE6C0B99E78E8726AFDFEE95B6AC75ECA099C7184A0C3A22FA9809626F8B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_huaqianxiao.png",
+    "sha256": "455D082C14BBD4A90582DCBE692EEAC7CD0CA5942C63BF9FC751911834B0B199"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_huaqianxiao_locked.png",
+    "sha256": "E5F59C766176CDD30C2097A9C24BFA1C76E06B528E0FD97681A07EA591AFC6EA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_muxiaokui.png",
+    "sha256": "7583A1342EDF9146986CAAAA2B6CC02982E3D79BE9246CBFC26B8D7909066396"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_muxiaokui_locked.png",
+    "sha256": "AAB93714E377E2944EF7D206361C4726AA69A947C0CA87A0070CF7C84EA624D9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_yucong.png",
+    "sha256": "C772240EFF9073DFCE31FBF9C8BDA1C374E0F8694FAC036760C55092E91CA98B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_arena_yucong_locked.png",
+    "sha256": "4FB437324628D9158B13A0E4CA52D6E3B53CDEFD18C0B19F500222DC67F22A85"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_back.png",
+    "sha256": "128912201C8988505FA8B6F2D3C7AFC74585B1DCC7492040BA6BD7DFAD3DD878"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_bg.png",
+    "sha256": "1B4FCCAD5BA3BC795EFA732CA29D744FDFAD30ADA4BBC7F60DD79DFD0022EAA2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_clock_0.png",
+    "sha256": "9820458D607D9333F262463320FB0FA652CB62EF09C1322D93DFACFE355778E3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_clock_120.png",
+    "sha256": "96A378BCDB542D147839029AE25CAD3CEADF5986D8EAF0DAB223D43764CA3A13"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_clock_60.png",
+    "sha256": "614C495BDDD1A9786848CDF0B9A0F0093E27C02731F040D439D5FCD5C78686B2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_clock_90.png",
+    "sha256": "F19FE863FBC40F448E7B5750287BE3C354DDBBFB1AE05D18F01B01D6FABC6A0E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_leave.png",
+    "sha256": "BB8AD18B23E2C2D78CE2F11674E8ED0853D8ADD3550D89E254029CF1D041BEB5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_mode_death.png",
+    "sha256": "F924FC92F4E0C347019AB51E1FFC13229D395E87C913A221A38833AC88E8D290"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_mode_duel.png",
+    "sha256": "1B795B1FC12C6EF9A0FB8536F6F79D1A997524A3125DE883A2895517CB509F29"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_pick_edge.png",
+    "sha256": "6518569C726D8D50EB177458E08C5E6AEEF6D3E9695A01ECF43ECB5F8B205433"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_pick_main.png",
+    "sha256": "1C38278EC754BF67149FBC7E90A6A3E1AE596F5A101363C10BD0EE81F4219D64"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_ready.png",
+    "sha256": "02E8C33D71E9A38E8D7C36E608C516B63F1FEDABA1396A2DF5377AA20A21283F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_ready_on.png",
+    "sha256": "8E8C9BFF7CA1702DA6B78BDDF6F769B8265F796D1B0A025D2C20FE7D97C8A5F5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_1.png",
+    "sha256": "F79FF3E3342A872C35B1C2CADBD92C68DF4B7753FAA5B07043D1B5A3B852D8F5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_2.png",
+    "sha256": "7959771F3096DB98DC4675FB8FA1697F74C7A4632DEB5ED3412D565CC4CE17C3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_3.png",
+    "sha256": "4D94690EE6CAD9943E4930E8FB695A5D89A11234E7D068E5E0B284778ABE01FA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_4.png",
+    "sha256": "FB53E48658704D415D17748FBFEA9A39301400C8DE65FCF034C5C0DFDE2337A8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_5.png",
+    "sha256": "6B636B11833177F6C57930C5C4246FEDFE91FB43EE8BCE4744046A87AF0E942D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_row_6.png",
+    "sha256": "8491C4A36E321311E8A4D6A86198AC58C3E1F92F0AEADADE571E6C3ABA6794E5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_slot_edge1.png",
+    "sha256": "64615F4D1F1F071C9D507C5DD20FDC57F1F1AA2991B83AD674C3E6E3693894D6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_slot_edge2.png",
+    "sha256": "74D20511C4B21EA8B434D7E2D625979B079A67F9F2C6DF232E2208B6B3072E8C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_slot_main1.png",
+    "sha256": "D213EBE153DAA1C255952BE1016AD70DA916ACA72EF295CF8829EFE65846BF03"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_slot_main2.png",
+    "sha256": "E102E9C4D4D0E696D469AB4EAE459758E1E84D38BE7B89EFC89ACE44898F6EC2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_start.png",
+    "sha256": "296DC6571579ACB81566B01AD5036FC40E49E3AA690BB29450A6C42332F15784"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_start_off.png",
+    "sha256": "46881584A307FF3C4EEA05F3D4D60A114CA4493C7991C560AB4360B2A56F3559"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_team_1.png",
+    "sha256": "E52494BD74F9C46D85E155A52D6016A45328E84B6F365FF3E7580DE94C45B1CE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_pvp_team_2.png",
+    "sha256": "A9EDD77FCA8E200A55284CD4FEC42AB3BDD4CB98A6CA6796DACE5FFCA6C3F3D0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_direct_off.png",
+    "sha256": "AFF6E0DB55CADD83250C3685460B7B975FD21D3C61FF61E2BDC7D4E6A9591935"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_direct_on.png",
+    "sha256": "B62CF69D9C7CDB7EA4AAD4E9FF77465A491BF71449015FAC7416CB70331939A3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_freetravel_off.png",
+    "sha256": "03587C0FBDF6F1606FE30FE1FA5EAF89276AEA63A51A758E8E8DA7C2BB54B712"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_freetravel_on.png",
+    "sha256": "B9C6C889FD55B7B5B84F360CC345D3675430B344748C8A4A676567CA56F66EE6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_mapicon_off.png",
+    "sha256": "E0962E81123EC4174ACD94DB7DD528E201AC95EFE1FA12A8675252A6F5B5EB51"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_mapicon_on.png",
+    "sha256": "2BB324F5EBAA8C099ACB17409EE50D93C6B37B95DA42D00972A9FB3C0DDDF9D1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_mode_local.png",
+    "sha256": "02F9163BC2B3BA4F6A2AE3078813282451AFAFF3DA9233FDAA219B26727BB1EB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_mode_multiplayer.png",
+    "sha256": "F2679F6B608B435431E92538A2883BF1EB12281D254A54F25D55D46395BF4431"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_players_2.png",
+    "sha256": "355021167EEBE70115DF86882A445536B6EF70CD2FD4A44BCEB6DF11EEFEF9E4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_players_4.png",
+    "sha256": "B8021825E65550928A9ABC923F8A3432C46355C24DA70788D0D380C8E816A0FA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_players_6.png",
+    "sha256": "A73C304CD38AC4D8F6AEC4BE5378C379C00FE91AB1DC85770E32BB91AA3808DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_pvp_off.png",
+    "sha256": "6BC6A5CC6220E0F7ED8CA641BF0953B1BF436F945A1F4CD0A8DC8C1761ED4FCB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_pvp_on.png",
+    "sha256": "A1B6244AE51D0CAC52DEF06E78DAB03E02C9A8DC536F9AE2920C35605F20F2C0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_revive_soon.png",
+    "sha256": "8091BB8F8B1077CFD3C79D3AEFBE6EB29134D51BCF6A31A75D781DE3A056DE81"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_skip_done.png",
+    "sha256": "4638EF5B15E3F3CAF44F10ABF0F589EFCF5219334BA2F200A369B1E373168943"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_skip_todo.png",
+    "sha256": "3910610B63D65A22DBEE8AB19563D3264CB4FACE969CC1727A62E4D7062099C5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_teleport_off.png",
+    "sha256": "34C681F6EAEC2025BF9289F30E3526116F2F45E3C50A1BC8912022A4D2BD20FB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/ar_tile_teleport_on.png",
+    "sha256": "301EA21C80765E5A6CBF66875A58615EE0378FC46A6413F8F46EEA64A03D5FC5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/bar_fill.png",
+    "sha256": "E437472170324EAE58E85AE16B11A0075D2986C36932206846293AA4A5226C14"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/bar_frame.png",
+    "sha256": "380785ACDDC879669C696E7ED9393D3190749210835AE4526407DBF4951D9DD0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/bg.png",
+    "sha256": "CE75AB48B0FB0C4C8FA502328CC4EC808415BD65AD06366A8561066428A10A10"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/card_joy1.png",
+    "sha256": "AB72B0F4C1BDC646EC7DD7CFC64BAE28411D68C8560DC8B7D2E63D0D200452CE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/card_joy2.png",
+    "sha256": "368852F443381AEA652A4788D6A6F735AFCB89BBEEE8A8EEEB4D0AA586A5885E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/card_joy3.png",
+    "sha256": "DAC6A5D7F20ADCB0A73ECBF931063D29AEA54FB33D5933AE4631B8369BF37B31"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/card_joy4.png",
+    "sha256": "EFE6188F301424D6A6F87266EE5AB09EF1628A724A8A98696E30D6CB93FCA237"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/card_kbm.png",
+    "sha256": "6B40306B19C4D2BA2FC91B010E891A3DBB952515BE27A7744FBDC994CBA0E403"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/close.png",
+    "sha256": "0DF61F5FE0CABF85112D2C6B0811DAD25120EA96435CA5E243350764EC7BB9BC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold0.png",
+    "sha256": "E3685B57B5E67C34B110D6D758C7990A018820B5DF779088C37090AD9250A6A4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold1.png",
+    "sha256": "AB920BBDE9D7300B980A8F4E2768F3EE94378608E2152B3ACF48B85847C942D2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold2.png",
+    "sha256": "96867840FCAC4C95B222E06AC86C43ECC7022F35E7A194F0E402821AC9BE883B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold3.png",
+    "sha256": "3FFD944D19D0FC6CE123B233F5171109066EC7C3E6F46350BB44C0E5EE0EB7CC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold4.png",
+    "sha256": "DB0EA4C12B6C67EF1FEA3BF8D808F632AC51A535F5B1C5ED7F3A53657BE650F0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold5.png",
+    "sha256": "BC6EB6C92DA098BFA7C17E7480765543F21E031E09C783BCAC47ECDFDED386C0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold6.png",
+    "sha256": "3A7660A7FEB2FD17A15FF3478957B69CDA781BD07A3E70918571A991B5F1C31B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold7.png",
+    "sha256": "C608C009775C40FF7184195FD92A2ABB639DBD51DE7C3C64B8F5EF353A80A572"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/hold8.png",
+    "sha256": "23F8B36552969B2B44F55B4E1EBED7CC0739EA44BEF1D1DEFC6B11179D34C32D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_3bottom.png",
+    "sha256": "68A27D2EC0267D8477B5F68D7449EB6F3C2ABE97A5C5947456E5860DC2F8ED41"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_3top.png",
+    "sha256": "B537002DB48C05603A28C8304BF9EE1A3D4247D8E97420AE196A79FBFA7009D1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_4.png",
+    "sha256": "5F84D886F1D1D16E576AFE5852FB750EA12A30BED99E0BD55422C82FD4DA569B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_lr.png",
+    "sha256": "2E343533CBED4E4BCF6C8ED51DAB271BBB50A4B2F154E4EB2066F4A89C07DE06"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_mon.png",
+    "sha256": "86506CE7C3195EEA4010CE1DDD24B8D7E7FE5773896AA46059AA7372E6C51607"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/layout_tb.png",
+    "sha256": "340A9301E347B26799E71E321A08F84BF13D3858342E2C2D002A7E67FA535E01"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/multiplayer.png",
+    "sha256": "09885FF71A7E17AF1374EC66790AF9EEC17E2D9FB8605DDF66998C0DDB4E530D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_back.png",
+    "sha256": "EA0987A02532268AE2FB67BBDDD4C1A36230FD28634339C02AD86D19E1760EAC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_bg.png",
+    "sha256": "EED47CE54BBC412BAB8110B5907B5D877EC780C9127AE810C66DDC2DD7E01F75"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_host.png",
+    "sha256": "35035E7E000DEE8F221E8E2417E876E9BD07D9964C6C4238D2EE20F6C8C91EFE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_host_on.png",
+    "sha256": "811275A467D3DBB7CF333F4B7F1E841B9F847DBF38C0885EE2CEE968F81C5048"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_join.png",
+    "sha256": "AAB200090D199BB49610255B63F440463399B1C23D15796FDAC9899B08061492"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_join_on.png",
+    "sha256": "17734D2099B172521E717F1E47CB4CB197FE4C713BF866C701A72FE7ABEAB569"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_lang_ar.png",
+    "sha256": "9DAEAA081DB82D5D041454F2FA89B2C29FECDD8805CCE1B7C9526C4DEB0CDD12"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_lang_en.png",
+    "sha256": "4E577707C5C47B66293CF0B1CDBAFE0DD080FEEA9C8BE08C79480DE7A5C812D4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_lang_zh.png",
+    "sha256": "0F2E5FC9C557BD92D65A41860719489D06430E5816A34E6BB4C0AA3B986576BD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_leave.png",
+    "sha256": "F54130ED1BEB4F21CBA4AFC84CDCEEA40E5D3D1410910B125E3BFE4BCB1B4F95"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_other.png",
+    "sha256": "B2FD921A5797C11674B7CE97C3BB4C77605B916E083462C5D54788F82CAA9FE7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_password.png",
+    "sha256": "A8EF6C5D30C8A8434CC422D832FA7EBC8A3FBBFF634C8FAA8C0D977A4FE94DF6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_password_set.png",
+    "sha256": "1776A6FA31B244D4E5B8F05CC5A1D728CF3EB199907CB39C6D11CFAB0164F411"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_paste.png",
+    "sha256": "D2F7DF7CD99C7138EA8DD3C16D90713C8DA063C46A46D91547296C00C6B141F1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_settings.png",
+    "sha256": "BCCB4041DF4F2D15F6EE386DAE54DDD27E85E1135E7AED15DBE69E61464D3492"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_settings_bg.png",
+    "sha256": "02F980139CEE2B2113C2FC7BC4F672CD5888AA22ECB275B14234379F49407980"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_steam.png",
+    "sha256": "FCE54404A5D009A8E9FA91D412552510078657ECF79F9962842BE4517DE00FEE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/online_tailscale.png",
+    "sha256": "9ECD7C2096030765EB7D628C5AAED7FBF56B4A3FC5CA859B6A95BEA4A1855119"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/prompt_a.png",
+    "sha256": "00CE2F171C6CAEFC2A96DF7DA9BE672B366C9224E5A0711A76EFA8BE8E83B6CD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/prompt_b.png",
+    "sha256": "0926BFA01AD2F97D3B38C6469D041F7D88D93ABA8F6F3B1BE662105FDB740C2D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/prompt_e.png",
+    "sha256": "5E501019700694BA4C1B9E475C0666FD16F75F2696A6441898D0940B1D8F2AEB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/prompt_space.png",
+    "sha256": "AA35A23A851EA1F1A0BAD07FEE97BE8F95A9BE45C910CF8A9D1E735C3CBF4630"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_goldmask.png",
+    "sha256": "74241738C96C08F830BC7F1FD9E5A33E814B00757A33C272854F964ABEE42F50"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_goldmask_locked.png",
+    "sha256": "14B51F6CA2105C91DBD725EB2577BBC99D6BE3A512EB84650F10F3D9FC2D3EE7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_here.png",
+    "sha256": "15A006248653218AEEAAAC743D89CACF6830AD4A84EAB6275352EED534F463E0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_huaqianxiao.png",
+    "sha256": "455D082C14BBD4A90582DCBE692EEAC7CD0CA5942C63BF9FC751911834B0B199"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_huaqianxiao_locked.png",
+    "sha256": "F982C831C0AB3D6384C89EE32E04CEE8A57F8D5CB7C6F0F091921B60B74D0FC3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_muxiaokui.png",
+    "sha256": "7583A1342EDF9146986CAAAA2B6CC02982E3D79BE9246CBFC26B8D7909066396"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_muxiaokui_locked.png",
+    "sha256": "09812E1445F5ECD5D02D8DF3AFEBD5678806EAB51279A59359288A74EB786D4B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_yucong.png",
+    "sha256": "C772240EFF9073DFCE31FBF9C8BDA1C374E0F8694FAC036760C55092E91CA98B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_arena_yucong_locked.png",
+    "sha256": "A2196E6D0A01A5698FFAF1826D9274ED4A3735A8F68B022F575A9A5F105462CC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_back.png",
+    "sha256": "4BD3BCD541F874F8AA1FC446C0C812F182BBA38FA5BE53CFA537422A1291FB70"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_bg.png",
+    "sha256": "4A31EF394EFE613B3CD18591C02913126A23303AFEC8013E5289763277586207"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_clock_0.png",
+    "sha256": "439337BA3CFE382987C4C73F2151B84C3D5118D9B4C9D54D2FD1CE72A637D6DB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_clock_120.png",
+    "sha256": "54850EF6248C0C5C78507B777964EF94D445534F74AEB3C8A147672438D75947"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_clock_60.png",
+    "sha256": "C9E00FABCAF5241EEC5B6E4B8403E27834E67076630A3D9E205A7532912D5B63"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_clock_90.png",
+    "sha256": "C211C6A6074316D0906B053EA6F30B54E48E0058224E8DF29F6A4A482AB604D4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_leave.png",
+    "sha256": "9CF66B7FEA007797FAA78733044FAC6A36A55496310B612D99ED75373AC0C3BD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_mode_death.png",
+    "sha256": "768720A4DC60784E0C84A04BE4E7CDB8813E90965E0DB9FF5FD1F66C37ACCD42"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_mode_duel.png",
+    "sha256": "09430AD417FB8B42BD0DEF38DFA0221E6E1E062E583EECA8B30F1D027A4FA773"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_pick_edge.png",
+    "sha256": "C0DA45DBDC49C73C36F0AD2317D212E5AB22B64FFA1BFDF7075B0E0DECE978ED"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_pick_main.png",
+    "sha256": "51FA7BBFB9F0BB7F9424E7855A00429AE176076069A9371FECE87A450B44D30A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_ready.png",
+    "sha256": "860C22350ABDFB4F8837A9EA80BF70EF20FFBE33489D8D5D8227181F89EDAF0C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_ready_on.png",
+    "sha256": "FDD1FD3841929A93F9747A0EA301F96CBF85E1FB25F94DFFC7314F86E65E00A9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_1.png",
+    "sha256": "89E69A5FDE8E36538729D5561AFBDA642D0D1273302A0830872025C1FB40B3B2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_2.png",
+    "sha256": "106555966BDEC7CEFB21A9221C57C23C1918A53792891AEA82A1A8F895FD19DD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_3.png",
+    "sha256": "B11362B9742D3DD13F4236B7795721FA3D249340673DB65D5236F0B761FF3500"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_4.png",
+    "sha256": "D29603546B262F4EAAB1E5B79F7C7634CA819DD17DA1384FFDA1D2A54A5F04C1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_5.png",
+    "sha256": "485313BAFA1729AEF40FB06D4162FC5A1CC4CDC4F16E84A32378FB8B84EE19C6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_row_6.png",
+    "sha256": "6365A1CDC1D4C2F0603F8F9E7323DEF7BA6E3980BB9BE29D5245C8BCCD821473"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_sel_arena.png",
+    "sha256": "FC8962E09D04F3CE5B247874F5D0988094DECF3795C923300F40014834C8F506"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_sel_weapon.png",
+    "sha256": "05FD8D5E371328C9E75492097AAD43A82DEA81CFDEB162BAC023BCEC0C83BF4E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_slot_edge1.png",
+    "sha256": "B7F7E94243562ADD3123FC3384EA9641963EC0ADDA3624185965A9636C1B9446"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_slot_edge2.png",
+    "sha256": "80C15E5DB5EEB05636743B0DF94343DCA617D592C0964901697D1B4FF5C931EF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_slot_main1.png",
+    "sha256": "5116069823E8A2B1A6DAE71400BA4C0960F2A8A320462DCD7EC80A3C2C75149D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_slot_main2.png",
+    "sha256": "71D392316FE7B051948A98E131516C72B264C5DCAEED5ABE1EA7A2C5FBD4D3FF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_start.png",
+    "sha256": "5819E9D87433BE6464D12C31C7B37C2F54C5F021BA5C0B8498E4601093875D58"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_start_off.png",
+    "sha256": "B2833C3A47C39A1566FE1E59D1243D881073F9E416FD16CCB2CCF0B240571756"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_team_1.png",
+    "sha256": "775DDDB11CED87EEE37D043493D1CA99EB0AB9188B499470817D4F05E5CF918D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_team_2.png",
+    "sha256": "6676995B368E805D773329014BAE6FAFD7BA7CEBAC85C2A0DB95801183A20965"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_tick_0.png",
+    "sha256": "3D2967A379FFA8F5DE72913D2D0C246AC00A6D146001EC9D428345FBA664DC1D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_tick_1.png",
+    "sha256": "2B29EBE2C953A3C5C0BB4D44A54547055ACF00AEA168BC9923096A5697CDD8B3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_BaiYing.png",
+    "sha256": "AFABF24365469AD83C0159D69B7936E12672A899D2374C158893F831A61FAEAE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_BrutalAxe.png",
+    "sha256": "AC9240DE528BBF5175483A22F2837EC02AAFB5F11C1F1942F03372A9E0705F44"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_CaoOuSiXian.png",
+    "sha256": "2FDB44340FAB10B51D9BED99C82289BB63E5C405BBCA7F717F07690C64C8FE7B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ChiZheCanJian.png",
+    "sha256": "9010E0E1601293AACE1DD65FBC9BBC21A3699A4066FEDE01519A340D142F8666"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_Double.png",
+    "sha256": "07E88D6177F404B4D1FACF156FD4C0B562BF4718375FB472104B1496B4C32617"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_DualHook.png",
+    "sha256": "CD548B73B7F492D25CEAE98D3678583812B4958F20A73304BABECCE72DC87A95"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_GuiTouBlade.png",
+    "sha256": "A242571221F650CB13592FA8C37BAECFC6E0F71F3065CFF7711B8A62CD4BDD84"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_HeiMoShang.png",
+    "sha256": "7E7AC8FF2A3CEB730A1EA9933C730C780291FF43BCB3E882C75526B9493B54B4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_HorizontalBlade.png",
+    "sha256": "A491E8EFC5EFB8CB8BFCABDB02AFE6974A7C551253F2485C9EA341030C2D4794"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_HuangJinHuoChong.png",
+    "sha256": "9F7BDA2B536AED24D9B3E2E30F6383F8FD15AA79ED96554A4B4D62DDF078A86B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_HuoLiuXing.png",
+    "sha256": "DD95A18FD20703F2D000BB67CE77D53901D6004235E5946630217A9DE0CAE407"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_IronBlade.png",
+    "sha256": "017F18182CAE2E07DCE5D75BDBE910BC29A51C9639C89C28E4430C5FC6C2B894"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_JadeDualChakram.png",
+    "sha256": "D42F050E33DFFC5E14E7089D46612073BFAD8A7FEE303BC22C4BA1065898F635"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_JianKeZhaoJiLing.png",
+    "sha256": "A0821B6ABB3B1CC17060EF4F6100349BD44F415DE59B4F6C637925B282A090CE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_Jigsaw.png",
+    "sha256": "2E77CB725E3A4513CE6938826486F3B2C8479A9BFBB934F48EF076FB11CACAF1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_JinGua.png",
+    "sha256": "1FBA7E9F26DE240B1BCCCBE4E0DD32B7042141FADBBF63363547959372F05F48"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_KuYeSiZhuChuan.png",
+    "sha256": "87FEBF8C09C9B495175CBD2878F2D80F8BDE2D047746CCE1A5A3FC368E5866F7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_LionHead.png",
+    "sha256": "E5CAB4523A78588B09D8E46947BD7BBA6970C106DC3D040952F337D8AA513BDC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_Long.png",
+    "sha256": "02C75940FB26711D34EDACD05284047C9EB4D23E91FCAEFE31566FB551CCB0AC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_LuanYing.png",
+    "sha256": "618F27A98E9C5DF49C0A3B38561216A7567347C1F65C8C1420B147B60E87788A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_MiaoShouFeiDao.png",
+    "sha256": "B5F0FBC618F0092ACE570151B9AA2B073A497C83377A5DF924ECF2E635B11DB2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_MoJian.png",
+    "sha256": "1435660E034F8BF81540F825EEE11B8461365D9E62207D62D7A1845136761A90"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_NiTouChe.png",
+    "sha256": "832B3A2E23CDB21C2CCC7A8FC81331267B1FB9529221797151D09329335E1C43"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_PoJun.png",
+    "sha256": "DB74B1DB9B50820A4D98F5AA8EE398725BA4C9B7CB878C00B26BBEC3470A91FD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ShachiHook.png",
+    "sha256": "D0987B8F5AA2D505675CF5584710D480FE9E3B44CB4174BE8EEA4F91E8F78A9F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_SlitheringSword.png",
+    "sha256": "214446F324A90B099ECD9C662006227C614A0597B3C8E21619FA0AD6606119DF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_SnakeDual.png",
+    "sha256": "64A8B2CB2612BED088F59A6D94D3B98345BD183918496EAE9C0FCEE2AEEAD427"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_Tang.png",
+    "sha256": "D87EB8A7A1C913E151FC98F5DE0935959574B6DD3D0C5DF9C59FABDBC5D5A5D6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_TanLang.png",
+    "sha256": "F5878CC313516A1A17DDC067CA4C26C6D24F59645D76E46C945B01458C26B408"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ThunderSpear.png",
+    "sha256": "BBAAC18F45E08F4496F48E61048BEDD0798DA3DF8B4EA21AB21B370CBBE1F815"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_TigerCannon.png",
+    "sha256": "FA3AE017B0FDAF621C8F71196DCF8202B3D1B1173199AB7DAFDFE81BE3A46034"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_UnnamedBow.png",
+    "sha256": "B497A0C886C8EABED322D873CAFC57149DDCB8AA3173B72B2936785673757729"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_XieHuo.png",
+    "sha256": "937243177F091AE80DC22794206DF34889897A8B3506757E8F9816B797FC4C4F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_XueDiZi.png",
+    "sha256": "10F21DBB5917BE5BD287965CAAE8D1A409F9CCCC445E09FAEB45B531475B68BC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_XuKongHuaShan.png",
+    "sha256": "8434FF266CAF559BFAF85215B0492D017F93A9319511FE234C2E4CE237BD7C25"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_YouLongCha.png",
+    "sha256": "3D017781F4108574325ECB86BDD80B9F033C970602FE4D9A0BF1C922B2A76FBB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_YuuBlade.png",
+    "sha256": "F696C198E6C73C75E8B4286470266EB630710E752FB6177D13E89DBE8A707822"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ZhanMaBlade.png",
+    "sha256": "F6ACE803F4CC5E424CCB794D9834FF6B596A8084E8483EC3FAF17FFF46786E84"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ZhuoBiDun.png",
+    "sha256": "36FDEA9C432A87FF675CF347128CA29200E961C5EB32268E0D25A09603711520"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/pvp_w_ZiMingJian.png",
+    "sha256": "23A96D65C0BFEFCEE7B616A8B9233E628E2D3E4CC0BDA01D167ACE4C0B80687C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/sel_card.png",
+    "sha256": "E4056BFA4DC6F406DFAE8DAF327E8335DAA96F05CDD1CCC00FC7DEF4A7806ED5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/sel_lang.png",
+    "sha256": "40CB4AFF26780870E4F3308AC27C0DF6001300A6381C7A1E37A9541A774DB244"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/sel_layout.png",
+    "sha256": "DD800529F85EC7E88724BDAB9590BD8A1F5CA78B0AA818E8E3AC6BEBF4BA0322"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/sel_tab.png",
+    "sha256": "603EDB574C5AE90DB31A7B23EFDB7A9EE857F18009F6B772D8E8FCF84564F004"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/slot1.png",
+    "sha256": "73443CBF6FD17474AF8A98853553B8A042B32E8770F91E6A5B5BB87827A5305E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/slot2.png",
+    "sha256": "D3C592F9E41F23772ADF4E84C94746BA7015A387E1513EE47561D21E5AF9D27E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/slot3.png",
+    "sha256": "CDE732E6D9F2CBBF73EE18971F2F02816CDA82E3E150E5B388A67D70EF1F5A58"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/slot4.png",
+    "sha256": "A2E9AD6D5E00540D7AB801188F2A668B1749D04BBC437B1E1E9723CF9312182D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tab1.png",
+    "sha256": "97A274B8FEF694966F0A219CCBB9FB5E4DAC7A8BE7A15BCDD2998AA6CF792822"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tab2.png",
+    "sha256": "08946EBAF45627B89F910EBDF1C19765F1EB046D943FAB402EE2EC4CC5565B13"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tab3.png",
+    "sha256": "D9521687049D0D0BC0F095576DB2A4FF2ADC10E28A31968AA3A6B9415A0209D3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tab4.png",
+    "sha256": "D4000D35DE314228E7B38AA9D37D49A9250875529126DB552F2F9EC83E2F2211"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_compass_off.png",
+    "sha256": "31CF5E0142FDDD712FE937449A65626944A2632455AF32A0CBC734D87367F7A7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_compass_on.png",
+    "sha256": "9D35BD0A9A9ADCE3D3BC7AAE8564D60130CE056F13DCA0B4666C2475876953ED"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_direct_off.png",
+    "sha256": "14911A5597C599818313D88BC1A72CC270308AFB6B449010FB31DEF97436EB1E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_direct_on.png",
+    "sha256": "67087E39C7A58B9ECA291A9B81FEE6732819C34597A2750C6A9A4E5F35CD8ACD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_freetravel_off.png",
+    "sha256": "59A151B57E87368C5068901F00733B11E4775E831781FA1ABD99BB804A4993F1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_freetravel_on.png",
+    "sha256": "975D236741FE12D58CF3CDD66310ABD73F93BF54CB444C36D99BFB06BFD63F1F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_mapicon_off.png",
+    "sha256": "A86E448735B152D806E15A15549AA383171F60403BDB0038EE5E6EEA059A8B17"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_mapicon_on.png",
+    "sha256": "827C67A51572F65B900E50C1AF1CC9FE9015C710DCBA9661FA372795060C3B52"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_mode_local.png",
+    "sha256": "DC53AFBE88B5B70200B546189A06378C8F804CC67C97D51FC90A5A5050AFB209"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_mode_multiplayer.png",
+    "sha256": "D6AD381BAB4DE5C9E5ABDDB247C91D173FD06E19F316BC30AE1477B62D39E099"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_players_2.png",
+    "sha256": "EDBC2785285029C59F0A6C4F1A8A47A49A26A2F5396FDDE0EBC6441FFB36E978"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_players_4.png",
+    "sha256": "1A9627B658A8379CAB5FA6C2BCE899E226D35D1494B098957EA49B7FE3DF5842"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_players_6.png",
+    "sha256": "E984B6F8899C7D087EC1E36FACC462CFFE657B3237C42B5AC2E3CFF673BE4F0D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_pvp_off.png",
+    "sha256": "22506082B250702277A1E2DF8EB0BE1097D9342D74EAEEE970E8D40237C3B2A6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_pvp_on.png",
+    "sha256": "991B394D575BE219C291BEF86CB78A23C9CCE9F201BCB9B67DABCC0AA2BC5946"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_revive_soon.png",
+    "sha256": "309D57ECD053F93C5CD74E294DAC89D380EC43CDF1210792B8A6F04CDDF6688E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_skip_done.png",
+    "sha256": "F11A51B64542937D6BA5069247D356BDEF5E5744EFDCBD89260EA9A87DEC0052"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_skip_todo.png",
+    "sha256": "7149CA3CD666BC007FE0F57B5CF27487E34B9F397DB900DE77D543E2871B55F1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_teleport_off.png",
+    "sha256": "A1DBD32BC519147CC199B5721802F405E31E9BEA28C0A14DE3CCB2B2F1FD477D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/tile_teleport_on.png",
+    "sha256": "742FAFCF69B3FE22721F827E40F9083291797F9EE418D184BF12982DF78A1FB8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_back.png",
+    "sha256": "C291D9DE6CB58F6415ECCDFC1938DB53B14D91669F9FFD28686292A2D6D0CE1E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_bg.png",
+    "sha256": "BF2883F80A6BFCE430CAC112BE160759AF77CA5E9B3841B98BC58FE2A0419F4D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_host.png",
+    "sha256": "797E2E3FEE3AFE5533C894FF8D4006590882075E3C1DB97F738C1F65804BAE25"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_host_on.png",
+    "sha256": "EC0F262EB7CA100B378B39C07A9B8369C06301A7794007FE45DCFB994ABA2E62"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_join.png",
+    "sha256": "5ADB4CDC345DB5E8532862A50D03AEAADB2EC8206E01DD2464EC1C6E523BF9B5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_join_on.png",
+    "sha256": "E368C22593313107D007EED6F34C552751A39B4DC7686197A27422C0BF7BDF7D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_leave.png",
+    "sha256": "CE36EDCDE3CFABFD555F34F69B5890E4D6CD84F6169EB0E7D22F05466E8F9A66"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_other.png",
+    "sha256": "C92F74A000BBC2F0A1A73B3FF604FA923090BA849D8C3830BFD40603CFCF67E4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_password.png",
+    "sha256": "E36E60230BE1CA4A94DDF66EF7D8B1A0B8F961B9A824EFEFDCE1FC5ED78C553F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_password_set.png",
+    "sha256": "CA14144F9021C2F185741E4E48FA859FEAFD256FFC86AE6402C40CABAC0301E2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_paste.png",
+    "sha256": "B86C649F2D5CCD9A9E44D287E791416F2C874311B36FD8B0115C9EB84DA686C3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_settings.png",
+    "sha256": "F88FC4DB21D450BB2CEEF281A52D43EC2113A1A080783C6D09AABB1DD46920A3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_settings_bg.png",
+    "sha256": "4153BC9AE950BB8133033444E2CA568AFDBF7952DB6C5D8D100CF817AF25E07D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_steam.png",
+    "sha256": "6961D81C94AB7676EA82FA15872702923BCA852D5B4CB54128877927C1345E6C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_online_tailscale.png",
+    "sha256": "74DDD571C54178B278D2F9B86E99D0C8B2F423C153F267ADE6DEFE6B2A58C01E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_goldmask.png",
+    "sha256": "2836B5B151DC0BD8A7EE024D60B072BEB03ACE6C27338774045FF4D248748869"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_goldmask_locked.png",
+    "sha256": "1402ECBCCD0E876E0114C966BE4E393534A3E282DF4DB15A3B6D35B66526957D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_here.png",
+    "sha256": "7D065385218ABF1DA9DA8C2CDA8B26B725BBCCDD16D663CC661CBA8E6527D8B8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_huaqianxiao.png",
+    "sha256": "D3B4B9DEA7D7AE442568293F15D515FC38D69511778149C2305DFA5172D58585"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_huaqianxiao_locked.png",
+    "sha256": "061F2EB5576B4AE7B33E7DD2D93D9D2FA9E919EEE001C9FD96E696A9DBB2298B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_muxiaokui.png",
+    "sha256": "B848F59D7E6BB3F9F1B104F030862513A788561851AAB600ECCAF9266D6CFFF7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_muxiaokui_locked.png",
+    "sha256": "9011075508B913DB9B9B2B6029D0A22A028F7E9A8D0ED4EAD92070B1E67307A2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_yucong.png",
+    "sha256": "96F24B97275E904ECF6C412D098B388F5850DB67B6093BBFE6421509330F7581"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_arena_yucong_locked.png",
+    "sha256": "0FA544B7BE57895C73CD76F6043A005AEDFF7182AE23E29F705D5E4F9F7CCB16"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_back.png",
+    "sha256": "EC57CADC42E91083CD71650B05FD9E3B976B5A7E2F65B63CD43D83AD69BD7C7D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_bg.png",
+    "sha256": "8F6B8C957F2721100D771A69283DA39AFB24959A4AE840372912159324D4BE82"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_clock_0.png",
+    "sha256": "E430E7782EC6F23D3DBFA6CBB65F9D382694AA71BAE409B2DFD385AD01452D38"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_clock_120.png",
+    "sha256": "96B5B345D4978A55FD9021A66A30F2E2BE58048626B9A35EE18672A9E07381AD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_clock_60.png",
+    "sha256": "33562C630D24B5961E1A5E4396D958F099C860C355BD83FB32D7B01CBDB616BB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_clock_90.png",
+    "sha256": "0FF6E2D6AD51506A08F6A4522040D5B8C799DAD0D23365536759611ACB521FAD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_leave.png",
+    "sha256": "DF8A123071C0C66DD9C6E0E2BDE39BBAA46DB6F8B0BE60A5C27B57DC29FDD28B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_mode_death.png",
+    "sha256": "A0C83F8D352DD911FBF1137338336D89E7DFF6743A7BF98158B9B5F46E088912"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_mode_duel.png",
+    "sha256": "6C6554F75921F5E523FE7B8225C7D5D34D9864C96E33E1C670DA13280803E6D5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_pick_edge.png",
+    "sha256": "EBBB183C9F5D28E16D882BEF55FDBA9A1CC6D102A722C13A845EF90737E9B437"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_pick_main.png",
+    "sha256": "AD6B5FEDC8F86EA7EA9DFEC82830405772ED447FF4A73EE55A295E33AEEBEB56"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_ready.png",
+    "sha256": "10D15637AC46CB0EC5D570678F6FD1B4A9573C5339CE82343770B10D30269126"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_ready_on.png",
+    "sha256": "AC32A50060ECBE640885CD1C9A4EB2F8133C0EBF45D2E2F3A01426EFDD2EA7BA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_slot_edge1.png",
+    "sha256": "0E177109D359DDC9AB3625746160DA611692C110292FD9764420930395F29941"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_slot_edge2.png",
+    "sha256": "EE95F115BE8C393D4ECF98576831C5CE290A343528AE9D59E82DFE6CC1FCA2D3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_slot_main1.png",
+    "sha256": "9B53795327D4337D717F1C1077D5DA632BCE2ED8660DBA01F2E8E996C803AD57"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_slot_main2.png",
+    "sha256": "F2995F3B5879E6CFBFDAC4E543A0E7AD515DEE48C9CFE4906E5718EA6A777FE1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_start.png",
+    "sha256": "40D123C2450F278CCD5DEA564B040B4020501240BCE6639D472D63993C1293BC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_start_off.png",
+    "sha256": "6F6101F8CF91A0CF40467134EE8A4F6DCAFE40444F8DD950B7016BC0BBA8E890"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_team_1.png",
+    "sha256": "D9B500FC8C5D65F512C6FF2592103C87DE90F201EDC4E7C674251508D91940F3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_team_2.png",
+    "sha256": "A591F8827AA7C0BE320512CEFDCA24532991850F09F418417EB59399FC532579"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_BaiYing.png",
+    "sha256": "9CA0B78182C3CEEBFD6F9B5FBDB37701174AAEB5788064D946A05103562D79E1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_BrutalAxe.png",
+    "sha256": "C38A2BF8DCE59C2A811FDA4F63C5B36FD68A71350E6F42965C15303625FA9939"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_CaoOuSiXian.png",
+    "sha256": "9374DF976449D6B138A431A7509A4CEDEC8A31DC34B2F988567E979BF1855701"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ChiZheCanJian.png",
+    "sha256": "0BA42C767496997D0F97158B47631E348CE84E64BDC62B0B334234DCAA69A09D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_Double.png",
+    "sha256": "45EEDE1055E8B075E1C407ED069C2584C385A4A80D172A2C550A7D9298CE8D3C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_DualHook.png",
+    "sha256": "B1A2BC2394FD2B0D9D8E5245FDDB046DB02589D1A5BC3D5037D31ADA310113BC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_GuiTouBlade.png",
+    "sha256": "E2849B505A1AC8B01A7F2104743D016C70320A45EBB88BDECEE687350507A696"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_HeiMoShang.png",
+    "sha256": "52D2E7140BFB7A56EF4F7E8608E155EA9D135E74F9E2B5E22869C8955025E05C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_HorizontalBlade.png",
+    "sha256": "5C6DFB570F66288730A827CDF36B89930821D3418490341F5E6A4923FF3F3A8E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_HuangJinHuoChong.png",
+    "sha256": "041C4EC44EA3963771520962336C6D56F482A49B1FD2C3461320245F48C4A063"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_HuoLiuXing.png",
+    "sha256": "DCC2B83A1E38502D207021292BEA64DF48055993584B8B21684C3A076EA8820C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_IronBlade.png",
+    "sha256": "DD186296543917BA0FDFD2B74D5863D247D37E98C7016C3A541F674932562B57"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_JadeDualChakram.png",
+    "sha256": "D7113716F5FDCE946543FED97B01D628840761D6B6789F2CC0DD4A648C3428BD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_JianKeZhaoJiLing.png",
+    "sha256": "5B98BF28FACEB0D1B76FB78AED403A9E288F85549DAC31229F4FFDC051605C5D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_Jigsaw.png",
+    "sha256": "3498D7770BAB8A0FDE526B41EADC1FD070F8C1E2B093F4482EBE11F1BD703A83"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_JinGua.png",
+    "sha256": "9341A1764522B70C8EB30D4AF44B6C29E7376C697F6FF7B1362B88AB028F563A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_KuYeSiZhuChuan.png",
+    "sha256": "79F5AB6269F2DC455E50EEDBA493C9CEB763CC5400BE73F451A4E173E13EBFC9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_LionHead.png",
+    "sha256": "575882AC2ED8A6483B41CDB1CE91EE7A057B0D725F2F5C62FE806BF295A0F47B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_Long.png",
+    "sha256": "190C103FCE5AB519E1FB4E04DCFEEA0C30B044B6313E4288CFDD5BA3C0E39F8B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_LuanYing.png",
+    "sha256": "8D5429FB1356EB73C3871AC139CE6F526E983FB5BDAB5499A5082FFF7C2E38EB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_MiaoShouFeiDao.png",
+    "sha256": "C537D244CAB590EB5DFA339A17CC8A1A97A58BA19A4024B3F28A37E87BDDB76A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_MoJian.png",
+    "sha256": "2C899B878A08557AE5020599159C758F8CCAC07FB208EABBAB1E765462A3AF9C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_NiTouChe.png",
+    "sha256": "12F0D5CDF2B375FC41400A422E6B12613CAA8CB5B883EEBFF1B8476DA9A75624"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_PoJun.png",
+    "sha256": "92D637AC11EA6909F32121CF5F22D68C2E5FB24CD486560A86D1482EED74DE11"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ShachiHook.png",
+    "sha256": "2C8EBB43EA7F594C6C6814019E561AF671526BA19A6A6DCE60264E9E583B80F9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_SlitheringSword.png",
+    "sha256": "A1ACD1067065D1D20FEB7FEC71AC8DF6F4DC9D53E84BA48AA586A2A54D515E29"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_SnakeDual.png",
+    "sha256": "F725AC14C4B44361F8F9B400F3629497DA8B1F3A52DD58455EB61D32140BF4C2"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_Tang.png",
+    "sha256": "0844EF611605553C35662B2BAA90C007F95DDFBD21F912A5EEFE00EAC4B411E4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_TanLang.png",
+    "sha256": "F2028B66E562C74DE49356FFF91219DD349DCF38299C6F101E9BF89953150D60"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ThunderSpear.png",
+    "sha256": "6026EB4754441A48FF3B5596983FD98DBAC7C01FEF014689D237F3CE7FDA8CD8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_TigerCannon.png",
+    "sha256": "E7A29880AE375CF08E91BAD8CAFE8058345A32420DFABCE676C7C46AD59A0EAA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_UnnamedBow.png",
+    "sha256": "53B30D81A32CACC120B87C1E26B474D7947D1CB6EDDA50579475448736D1FE2B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_XieHuo.png",
+    "sha256": "CB4FE0FE01523F19A26691B96B20421878DC7573C9FC0CBCEDA86D6565D5BAF6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_XueDiZi.png",
+    "sha256": "DDEF0099DE0F52FB78E3B21E3B646A74BA52086729DD58664FB728EE6C063308"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_XuKongHuaShan.png",
+    "sha256": "A47045B1A759E13BA33AD192283EBBFDC7B4D62881A22587219529ECA41C09EA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_YouLongCha.png",
+    "sha256": "A933F9999E7D82904DD77C9437AA59809CC5457CEF75E7E91672623884D00A55"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_YuuBlade.png",
+    "sha256": "7F2204556F66ED07CC8D4CBE02A6A2CAA0A9A95A4D3E1AFA7C28275D2287A813"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ZhanMaBlade.png",
+    "sha256": "DE3362F09D6B517F253459444C35F4644314847BFAC478D12F0C0EA4DE83D017"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ZhuoBiDun.png",
+    "sha256": "0F1E814604EE39B67E7A448FF793446B7D7D4DAB03F8F8D28223B0B449D216AC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_pvp_w_ZiMingJian.png",
+    "sha256": "AC670E348BEF9F72971161964B5354394C9C3702FE0048DDCA76BEF9588260AF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_compass_off.png",
+    "sha256": "3B7751541CAF9A358D3925FF647566E74D245D5C3C1EE89254B14D252453E011"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_compass_on.png",
+    "sha256": "F07B630ED7BC4F605003D1F7C8FAFFF38C6C1754BCF65BF4992F8B9F5F820B1C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_direct_off.png",
+    "sha256": "2727743188E8F7E9475AFA1EAC0859EC29F216D5B67F5CA445F5911C54AEED30"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_direct_on.png",
+    "sha256": "012BA59BBA8308DCEE68ACF9A3A0DA45453791E64B9E45140E782257E0970C7D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_freetravel_off.png",
+    "sha256": "A82E7390FC3A73B5A51E51418CB2746356A417BEDC5E4830C71606C44F59D866"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_freetravel_on.png",
+    "sha256": "0C17EDDAF45F524E423E26F0765004B33337BFD8833CD4A56DCCB519494477D9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_mapicon_off.png",
+    "sha256": "64731AEFB5AFDF01ADC920A080905BEF41B7233469DF9383F2A94037641A8858"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_mapicon_on.png",
+    "sha256": "9968248CAE4F85397F9204AD6F4380BC194559639ADC77540D7441FAF1B4BB9C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_mode_local.png",
+    "sha256": "E7C040E128C1EC50D9302508DBD227067293D69546878F6613BC07A023A1FBCC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_mode_multiplayer.png",
+    "sha256": "1FED45B8ECABB6788C6D3E77FD14CF51420D139B259F474155A891B45D975B20"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_players_2.png",
+    "sha256": "56C4347CA67513E1887956E39C7C9E485791D8C6B263BADA2881074E5B19B4A1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_players_4.png",
+    "sha256": "69B530654AB2BFE4FDD4AC59277F91F5500F5725C90F743EC97E3029AD8225C1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_players_6.png",
+    "sha256": "7A64F1388A92AD824779D1739DD800B99D3424182FA47D98AD9E23DC28D7FCD9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_pvp_off.png",
+    "sha256": "84BC9B59730E72D7D011C894D5417C1BF8ED8F7DB129C4921D57A8331C6F8EEA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_pvp_on.png",
+    "sha256": "DCCBE4FC00C1D61CE4BE8E1924E273816B70C1EF45E317D27980524A3384C232"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_revive_soon.png",
+    "sha256": "C8D56B41C0D583A28BBF9EE2A7971ABC6C2A168DE4AAA514AFE5DA18F51C42F9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_skip_done.png",
+    "sha256": "8535026B44840EE0640169B72CCE8328C015C7E5A3D768514245D297A9535207"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_skip_todo.png",
+    "sha256": "CCB21D063D427AB5F4CC52B08D2E42911965F9FAC18232C72632B47B15EE76CD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_teleport_off.png",
+    "sha256": "491BE459E1B5443BF24127DBCC1E5B98B5205B75D201629509DE4E7FB1525CE5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/panel/zh_tile_teleport_on.png",
+    "sha256": "DCB29C8BFBDCF6292088629C8B00E0B88E5F091D29D04440DCE6A11401A495E9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/partner_dot.png",
+    "sha256": "E19B7495CC2F774C85F9395AF743DA37310B9DF33F0898C19AB8E048BB2606BC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_again.png",
+    "sha256": "7389A8493D78DD51BF314138CA3EEBD2CBD7C7B3E309690723540EB341053A60"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_death.png",
+    "sha256": "23F0C18F667EFF2429E759D4C43B1574AF8E8D2641EBB9798158ABC8BFBE56E3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_down.png",
+    "sha256": "3F8120FAC202EA2DD16708EF29B64C6FDF99EF8217CBB5ECEFC2124678AFE294"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_fell.png",
+    "sha256": "6F25C445E4116A6C42DF31C4383F0A7CD1F03A72AECE24032F389DA270697F87"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_finish.png",
+    "sha256": "4F0D337355EB3590609B0D5EB1F2AC1C6358C38C914BBD922B06D63DE1169658"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_lost.png",
+    "sha256": "A05D92BF44A3DCA108DC9AF11B08D1B023A271C799A4FBDB8A227A4E8AA9C9C8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_lost_one.png",
+    "sha256": "968F86557F76BC510E716500199E3527C448A3353FDD90871085232004FEE7F6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_1.png",
+    "sha256": "ABA3CE48D44B3062CB27EE42D5231A15BB5D761126C4971615055543B1DF5606"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_2.png",
+    "sha256": "812E9E567AD54378EF0EF2EA45C2944F38BCE283317D83FE496C6F0F42E80EE8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_3.png",
+    "sha256": "82FF186130AA40E9838B013FFC175B5A562FF6E68A81FA9F876DB7D2175D4572"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_draw.png",
+    "sha256": "9ED21075783A7EB9C40067053F71E9AFE11575D706EA86F35AC4B83DA29F6024"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_lost.png",
+    "sha256": "8C1C8C0B654D666E65362C58034FE2673DAE4997E54176F5F5E3847CBC9629E5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_round_won.png",
+    "sha256": "80F0510E5CC981B5D10231491D515382C0FB9F1492093089253C23DC3B5B8AEE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_won.png",
+    "sha256": "7E58238417AE3F8C90F94C1C76F048A3C5B9363663AD7A1B4B477FFD5F4887CA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_banner_won_one.png",
+    "sha256": "2F820C6A38D72E24AA21931E2DEF611AA59888D63AF14BB46126DDA0AE70E6D1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_1.png",
+    "sha256": "4F2623D5445B82EAC0D8C7F5E75556164E9A25545B519EFF3B373C4E8A87AC8E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_2.png",
+    "sha256": "0077A3AA0EC5B4DECB31FD31D5B8330293C158829189154B23AACB8A7357F3B6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_3.png",
+    "sha256": "178ADD7626672EE8A1F9DA35F21D5E67B87AC813D9F76D8CAB511EEF13330B5E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_4.png",
+    "sha256": "96A136AC25E5B07023396D606FFCD49AA29FAAC969298008055EEE982749E7DB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_5.png",
+    "sha256": "C3E61C6220CDBDA50CA3BE1C714D20F9E4160E863712850224EE65431E0BE821"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/ar_mate_6.png",
+    "sha256": "589648706A62155C437DCFE3ABB66A5E691C7C5A1DFBC47837BFFD7C153D6AFE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_again.png",
+    "sha256": "0536292931D683C71FD4BBDDF7A1B01E714F27138F1B0C2BC97EBFB3981D852E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_death.png",
+    "sha256": "5197A25FF4F0323203C37F6FCE6B62F371E43F0340F87CBA27B3F4AD56411AE0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_down.png",
+    "sha256": "0DAED93C5EE5063F897041C844D182F8E454EB869CADC650A2892797A17E99ED"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_fell.png",
+    "sha256": "C06588351D19060AAC64C7E604D20AA7B78A43AED026CCD1E2A9551B7E3B9DE1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_finish.png",
+    "sha256": "B6BD7005140B3EA9EAB537AD889001E95D6BEF8A197DA5B2879049F2A96F4BD7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_lost.png",
+    "sha256": "34EA9EC6F3D0FDDEF062A848E7AE01FADB50A1F4003F9350769732E6716ACF02"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_lost_one.png",
+    "sha256": "54A207A988686F2818A9E6CE9C6F0281467BFCFED5A4A3F12918BA8EC48F0B3A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_1.png",
+    "sha256": "4B2430E090E8A74119ED315BB470F43F194761B12D9A3235E9F2B82B6E9104CC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_2.png",
+    "sha256": "16BC9E1D69606CA8FB94774A73A3C0E50EEE5EC383C94D0449D71DEC7145ED08"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_3.png",
+    "sha256": "A3630F9B05AE6B7161D6D61F87886E535A23DFB3BA91B40D05C1854C035EDD35"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_draw.png",
+    "sha256": "FCD0FD6B8A692DF56D5C0533DEDFB3ACBCD3019DBDCD0EAD3493663806488B02"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_lost.png",
+    "sha256": "0B1B2C614B22D45186CC94F2387B0871BE9EF08AD4E61454CA6D2A937A5A1C04"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_round_won.png",
+    "sha256": "BB11618434F515ED7DFB23CB6D54D2D6CA7BDE59B57D3DAB29AF5A8A33077DEC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_won.png",
+    "sha256": "20E508C80D94BF96191E348EE6CCA6C625E388AD88D46F8FCC1027CFC6A50959"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/banner_won_one.png",
+    "sha256": "EF6A57DF32E1CA5E74A35D9EE68C1F0A1ED1ADBD647394D5599F7C8428CDED26"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_ash.png",
+    "sha256": "058FF79346D919FD0D2135EC28EA4CB1CA64E339CD0007633B8DEFCE75AA4C7F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_ember.png",
+    "sha256": "301C5042FF7B4B574132204185CB98D059DFA07433FB2C9CF915C48895AB9182"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_glow.png",
+    "sha256": "8B4F7A69EDD2A122D4FBE8EB6D51B0DB6C76C3EA16FA667D292D855653A1A07D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_ring.png",
+    "sha256": "60650FC314BBBFEE34A5C201D01C8801AEB6657CFC60E5C804B1F26B1E7BA3EA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_vignette.png",
+    "sha256": "190D0FC715A0418E524483C4141078C085B53BCE2365A26AFFD8D446DBC0133E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/fx_wash.png",
+    "sha256": "154F1B725414A69308564DDB46AA5F5D7CBF9AFC60CD50D2F53B5F551DE547E5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_1.png",
+    "sha256": "BE923A225F1815B9EC202547B442625CE3233D188794B48EAD67F2271DAA5D39"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_2.png",
+    "sha256": "24C1FAED547E449B0B4BF32A6ED597AF465EF634843EC1BF4BAD674E1D329592"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_3.png",
+    "sha256": "E4357B3BE96D7A6F1E58EB082212FFD032AFAE14A676BBA127CDF5C4FD166C32"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_4.png",
+    "sha256": "E25C8BDC92E73045302E21142E50EF04D9ACB58F01D1C8FA10BDD86236DF82D3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_5.png",
+    "sha256": "90741DB62A4CFB718FC8492B5DECAAFF79C20CA0E777A3C0857882BD9D32BF54"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_6.png",
+    "sha256": "611E5B0B6DCCDFB06F130E6F94AD17EDC85802C708036A9911CE95D936607D00"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_fill.png",
+    "sha256": "F488CAC6CAB5D7D164007E1BE9EAF30D17B57D48C96DA4BE7A25FE7B2684AAF1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_frame.png",
+    "sha256": "924E4602494CC33A8012A98CB1C598EC55B8639428035FD1939B4900F3274CD7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/mate_lag.png",
+    "sha256": "5593B4CC3A041736B67C7BA901DB8C7B452024A96A6F17AD80C7BAFC25C03052"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_again.png",
+    "sha256": "020105564B2FA44AA87BA9E8672228019909A337D28162FD4E760F21DFD77D88"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_death.png",
+    "sha256": "CC73F4DA85170AFBB4B41620C2C4DDCCA3124D78D2531973BF9539BEE2494614"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_down.png",
+    "sha256": "6154C6A8E7687899CA4CE15D47A99B28E796626DB2CE0F8D8C1A5F509850D0E4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_fell.png",
+    "sha256": "54AB0DECA2F7A6FE8F3A6BE9B8FB4E7DA7E629EA1B681177DBDDB8EA09112BAE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_finish.png",
+    "sha256": "4E4957F0A6DD02969557B88DB45FDDCCE4B185DFF4EE042A3DDA2700454DA521"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_lost.png",
+    "sha256": "9C1108C6EA988799DAD92B2CC326134D615878F078401C950F5BE31BC48E53EE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_lost_one.png",
+    "sha256": "3A4417CF005857D154A28434B4D1ED0CBFD3DBC800CBA0A5EF48ADA8E2D04A00"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_1.png",
+    "sha256": "8AACEE1C86DCC921D926FDA0CAEFCD4088149ECC331998405428FEF544A30A4F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_2.png",
+    "sha256": "27674F318E8411D7AD14610AD2F346C5D72E8EFF01BC5EE2A17761DC4A7EA0A0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_3.png",
+    "sha256": "874274A0E22C23010FE52155E5E1AC95ECD8C50CBF2DC18F9D232A852C127109"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_draw.png",
+    "sha256": "FF3961F36999F3F9AB85FAFFAA90D2843BB3908EE5712152CADF8385205D8EF0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_lost.png",
+    "sha256": "284749E5A418F62397AD9489502A6A409D95D70F233C60BB6FC21289FDC8E22F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_round_won.png",
+    "sha256": "FD4BA52251077A9B3842E77BC09DA04D2F05A1467CFCC9C0A39EEEB163E038A7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_won.png",
+    "sha256": "0EB36BD0E30D4B763EF3A9BAD932661063F15649AEEF969B011142D78A676AD6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_banner_won_one.png",
+    "sha256": "8D31ACFF387F28F0FCDB6BB03B4309C6E489109242B49C370E1475891FA5D32E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_1.png",
+    "sha256": "BE75B6318E25221C7C41383ACC04C0F5FDCE053C12DF76B2ED36E749B53CB355"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_2.png",
+    "sha256": "0E8D8658304A07D47040E773ADFC540FBE6D2F962C26A78BABC08E155E8E55F9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_3.png",
+    "sha256": "CD57B7F629A1585D014FCE0A9999AD5B06B9702DCEEFAA8B471DBA7DA01C6495"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_4.png",
+    "sha256": "D3C85C7D83687466138C9191C507ECFFD62EA87AD93495F0508DF9B5111C1CAB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_5.png",
+    "sha256": "C6BC3B3315AE1A97F679C7F8B8A653F0708D0090221C543771BE0227E8D558F8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/pvp/zh_mate_6.png",
+    "sha256": "BC0353C57602AE4BFE4409B694BEEA0C6FED8B27B7039C0585A8B2509BF46408"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_0.png",
+    "sha256": "C459B9A68E00854ADF1FE422FD0513729547E22765A85240A6EC22434105DD71"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_1.png",
+    "sha256": "F19E4F8CD2FEEA3FCD090BDF22F3513FEE2FF401F35EA8D77C6789A896E5E45E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_10.png",
+    "sha256": "6E732577D48994945F9C861944ED78DCD1303584570C737CF816CEFA0A9ACE59"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_11.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_12.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_2.png",
+    "sha256": "7C7CE7D6A78ED59E62F10AC9C849CBBF9D6018C9473C248F17AD20F7FAFB6DF9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_3.png",
+    "sha256": "84DA38C30D433CDD8AF218F84A86A0ED648D32FA0AC31E8DAA2E3DEAF5AAEE2A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_4.png",
+    "sha256": "A879185CEC2CCED3A7E5DDA8FFE84E90B9A2B225CE0F00A23612260497086FCC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_5.png",
+    "sha256": "AE457A3E66C649E37B4A07C3F2C1EEEA0A14EF695BD214D2EFAEC0C10ACFD1F5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_6.png",
+    "sha256": "2A15975A05AC28E1DF5BB36838B7C47ADD6998B02F4A220062843EF7D741397A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_7.png",
+    "sha256": "8B0B5F92CA4438B2A9B243ABE00216FB1D7C6B827E0E38D0000B3608D4D796BE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_8.png",
+    "sha256": "69B833F0CF79B90FF687C7C3340BDFB9F7FB781E010B473FEEDFC00E84E75122"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g1_9.png",
+    "sha256": "0593B22F946A2236B77C66B9D0ACF307466D97B096D00A38810B69DEFE0B8E70"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_0.png",
+    "sha256": "C459B9A68E00854ADF1FE422FD0513729547E22765A85240A6EC22434105DD71"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_1.png",
+    "sha256": "F19E4F8CD2FEEA3FCD090BDF22F3513FEE2FF401F35EA8D77C6789A896E5E45E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_10.png",
+    "sha256": "6E732577D48994945F9C861944ED78DCD1303584570C737CF816CEFA0A9ACE59"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_11.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_12.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_13.png",
+    "sha256": "531B1479444BB6CE6BC580C0A3E5DD7EC05D842B8AB6E68AC710BE2C827E6A33"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_14.png",
+    "sha256": "C6DB473E4EBB6C291E095BB2F6ED89C3DCAB018D41AB9BC5A76B4E936AD57F63"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_15.png",
+    "sha256": "78FD5BBF391F8B7033BD61464C8FE3E58EEAE093F77A453BCD5F5B19D1CB7097"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_16.png",
+    "sha256": "CF0D004F66AB34F3D7C66B017307BF1E22B03892D473DA1B52F2E6B2545C7CCD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_17.png",
+    "sha256": "76273629855E3A3910118AB9026C14BE7A0BA187118B85F808E9572728252FA7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_18.png",
+    "sha256": "004F7BC0A5100265D8300BF8E854CD67CE99140F8DA40CE22F043840D004DA47"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_19.png",
+    "sha256": "A1EE44FD5F0228EB9A4DFE27E44CF281C65D87212294F749D3C0DD6E0E72781D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_2.png",
+    "sha256": "7C7CE7D6A78ED59E62F10AC9C849CBBF9D6018C9473C248F17AD20F7FAFB6DF9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_20.png",
+    "sha256": "0F317400C950A1D833FAC0D58FFEF0C9D19A150EEF13A6AD379D57812578CE63"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_21.png",
+    "sha256": "43C9167BABE95F6FBA6F6B6988395A038A517CDDF96C8346F4299D5D508BD68D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_22.png",
+    "sha256": "1161F3885DC6695AD007B689B1F82AF79BBFB7C6C88B4EB803C96CC4025AF52D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_23.png",
+    "sha256": "9EAA353737FC51FC067C9660972DB1A576D78B21EC0DE971D452C66F81701DE5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_24.png",
+    "sha256": "9EAA353737FC51FC067C9660972DB1A576D78B21EC0DE971D452C66F81701DE5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_3.png",
+    "sha256": "84DA38C30D433CDD8AF218F84A86A0ED648D32FA0AC31E8DAA2E3DEAF5AAEE2A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_4.png",
+    "sha256": "A879185CEC2CCED3A7E5DDA8FFE84E90B9A2B225CE0F00A23612260497086FCC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_5.png",
+    "sha256": "AE457A3E66C649E37B4A07C3F2C1EEEA0A14EF695BD214D2EFAEC0C10ACFD1F5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_6.png",
+    "sha256": "2A15975A05AC28E1DF5BB36838B7C47ADD6998B02F4A220062843EF7D741397A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_7.png",
+    "sha256": "8B0B5F92CA4438B2A9B243ABE00216FB1D7C6B827E0E38D0000B3608D4D796BE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_8.png",
+    "sha256": "69B833F0CF79B90FF687C7C3340BDFB9F7FB781E010B473FEEDFC00E84E75122"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g2_9.png",
+    "sha256": "0593B22F946A2236B77C66B9D0ACF307466D97B096D00A38810B69DEFE0B8E70"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_0.png",
+    "sha256": "C459B9A68E00854ADF1FE422FD0513729547E22765A85240A6EC22434105DD71"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_1.png",
+    "sha256": "F19E4F8CD2FEEA3FCD090BDF22F3513FEE2FF401F35EA8D77C6789A896E5E45E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_10.png",
+    "sha256": "6E732577D48994945F9C861944ED78DCD1303584570C737CF816CEFA0A9ACE59"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_11.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_12.png",
+    "sha256": "B32E00D958FF5261C08892FE7968DD92C0258AAB47B7447EC55DD0B788ED67DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_13.png",
+    "sha256": "531B1479444BB6CE6BC580C0A3E5DD7EC05D842B8AB6E68AC710BE2C827E6A33"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_14.png",
+    "sha256": "C6DB473E4EBB6C291E095BB2F6ED89C3DCAB018D41AB9BC5A76B4E936AD57F63"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_15.png",
+    "sha256": "78FD5BBF391F8B7033BD61464C8FE3E58EEAE093F77A453BCD5F5B19D1CB7097"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_16.png",
+    "sha256": "CF0D004F66AB34F3D7C66B017307BF1E22B03892D473DA1B52F2E6B2545C7CCD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_17.png",
+    "sha256": "76273629855E3A3910118AB9026C14BE7A0BA187118B85F808E9572728252FA7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_18.png",
+    "sha256": "004F7BC0A5100265D8300BF8E854CD67CE99140F8DA40CE22F043840D004DA47"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_19.png",
+    "sha256": "A1EE44FD5F0228EB9A4DFE27E44CF281C65D87212294F749D3C0DD6E0E72781D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_2.png",
+    "sha256": "7C7CE7D6A78ED59E62F10AC9C849CBBF9D6018C9473C248F17AD20F7FAFB6DF9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_20.png",
+    "sha256": "0F317400C950A1D833FAC0D58FFEF0C9D19A150EEF13A6AD379D57812578CE63"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_21.png",
+    "sha256": "43C9167BABE95F6FBA6F6B6988395A038A517CDDF96C8346F4299D5D508BD68D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_22.png",
+    "sha256": "1161F3885DC6695AD007B689B1F82AF79BBFB7C6C88B4EB803C96CC4025AF52D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_23.png",
+    "sha256": "9EAA353737FC51FC067C9660972DB1A576D78B21EC0DE971D452C66F81701DE5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_24.png",
+    "sha256": "9EAA353737FC51FC067C9660972DB1A576D78B21EC0DE971D452C66F81701DE5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_25.png",
+    "sha256": "EF9AFC420ABCE29F9BC783EC049F42F808FD02FCC56A78B3ED4927C188DF461D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_26.png",
+    "sha256": "D0C7AACE292832A5B81679D541132A5C0873BC473A1BA1FB6B62FA4A81F979B9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_27.png",
+    "sha256": "AE74B7E441B04FD966891DB5C1B58FC8642303DBEA9708D4F3E7498117C3F3B3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_28.png",
+    "sha256": "470F351BFF343AE6B09C3FAE77F9605ACDEB91906F05D9C41258F27954144DCF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_29.png",
+    "sha256": "A7ECD77993AB2353D10416A1997D16EA9B65623E5CDC80B28BBC1F1B0415E6CA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_3.png",
+    "sha256": "84DA38C30D433CDD8AF218F84A86A0ED648D32FA0AC31E8DAA2E3DEAF5AAEE2A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_30.png",
+    "sha256": "F1732FEC1EFE4A5035A2E38F5A57B9605C356592A3055643D271C88B23197BDA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_31.png",
+    "sha256": "0A4BD19173990D36F0F1BE70A5D1A5FB4D6AEBDF1F1BA11628CA83671D39F0D9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_32.png",
+    "sha256": "EE8F39E5C0AC7ACCCF557C1DF72C21B89CFEDC92814A63AEE4417EAFFA69D81A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_33.png",
+    "sha256": "45D0155C3D8EE2CB7E5BE2566E594AE7D84834B882E98E1F123D590ADDBCF0DE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_34.png",
+    "sha256": "8ADAA14DDB373E6D323ED03E3A3388BCD97BED46A43BA713FCB0AA42B60AB02D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_35.png",
+    "sha256": "5DA976247014B5B311069D70D0B6B8EFDC62874DF786CB1F0AF60B107B3D01A5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_36.png",
+    "sha256": "5DA976247014B5B311069D70D0B6B8EFDC62874DF786CB1F0AF60B107B3D01A5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_4.png",
+    "sha256": "A879185CEC2CCED3A7E5DDA8FFE84E90B9A2B225CE0F00A23612260497086FCC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_5.png",
+    "sha256": "AE457A3E66C649E37B4A07C3F2C1EEEA0A14EF695BD214D2EFAEC0C10ACFD1F5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_6.png",
+    "sha256": "2A15975A05AC28E1DF5BB36838B7C47ADD6998B02F4A220062843EF7D741397A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_7.png",
+    "sha256": "8B0B5F92CA4438B2A9B243ABE00216FB1D7C6B827E0E38D0000B3608D4D796BE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_8.png",
+    "sha256": "69B833F0CF79B90FF687C7C3340BDFB9F7FB781E010B473FEEDFC00E84E75122"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/g3_9.png",
+    "sha256": "0593B22F946A2236B77C66B9D0ACF307466D97B096D00A38810B69DEFE0B8E70"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t0.png",
+    "sha256": "06AB142C3BAD172A564F50931DD667C07AF918ED7298107B0C41F79CD761CC8F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t1.png",
+    "sha256": "144D899B2EF4547823168D357A19FF4BBF2CF55CD72C22EB5BFEF09B0A8EDF3F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t10.png",
+    "sha256": "69A80D6B77D9FF887B571836AFE503BCF7489C2B11FE216FBA6B3B29C2472AD5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t11.png",
+    "sha256": "15BF6CAF5F7B442D8C8102D582696CF91CE7A5268126AC0E4AD694944F3720DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t12.png",
+    "sha256": "57F7C180AA3321C7D65ADC51905E85400062CE9A6EC4B139BA80467E3B94A790"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t13.png",
+    "sha256": "2EA47C8DCECF6E539D4C2973FEDCA4B03150855FBEB000B9E7496B0998BBA808"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t14.png",
+    "sha256": "5181F60D090CCC34CFCB26CACD8DF2D98C35C3B6F62E01D298818F99DEBE5D88"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t15.png",
+    "sha256": "DBFCD4AB775745B1E8F29C8CC4AF5F243C2527CECA186EBB9EAE6DEE10FB951F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t16.png",
+    "sha256": "E3E393DED1D21B26E9EA0B9DA5B6EBB66D7622278141343D044114458C015F3C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t17.png",
+    "sha256": "9D88AA27D27F07DC3ED55915A4D55ACD61A74EFE107DDC3E994528CA7EE6BB0F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t18.png",
+    "sha256": "FC21951FE0E4E1454765F89F2B0A35E45F822CFC8599510B49A9045B56150423"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t19.png",
+    "sha256": "5FC81BE6D632E1A1E31C042E04503DA99A918C6FF055C29CEA84D5410AF314BE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t2.png",
+    "sha256": "E52173C1CBBE8D9F9A8829F5CB1C4E53F9F91ABFFFC54D69320A0AF412702E8B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t20.png",
+    "sha256": "2A0E571B42D66CF453567B337E96097029C505D283EA0EBC4BEFE7CD956D77B3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t21.png",
+    "sha256": "6E6A3F869F2AF1F0194CB7511BD452DEA76F7D97F6FB6023F8777FF55E4B6238"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t22.png",
+    "sha256": "9F3B38A5C43AD1DB24218813BDF4D08407253C4515BD067E0F0C7EEFA6C9EE34"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t23.png",
+    "sha256": "317F45C78FF1FAA5C5AF6AD7ADA1CC2F6B1A233B1562542262A4FEBF965A1958"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t24.png",
+    "sha256": "5A864B93E73C7CE7E32A9F62E24CD1320800A538FD47D15270F6F04F5E1D3F30"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t3.png",
+    "sha256": "8721AD8090903407A6810531C8FA64D2D73F9FA7580D58FC25B4489513481BAB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t4.png",
+    "sha256": "80ED8F8B3F97660FA7CF2BB81B9C86FEE9EE4014AD0026FF2F3F848E4F006A5C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t5.png",
+    "sha256": "0A2A627249BEE5632771BDA168E8DACDF6410A8D6DD339A70F8DE1D08C6F4D12"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t6.png",
+    "sha256": "E5970B9704524FC12663E9B975BFBE5E1F0AEC37C5640D9F098F8000C663E183"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t7.png",
+    "sha256": "EF15118DADBF2CD0AA4EDFFE6735DBE1FE79CEECE0964A9920760AF011010EC7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t8.png",
+    "sha256": "5E2FC3FA99D73DFA4768317536D2FA0DE35DCB8848FF01E8A90EA3C159A23BAE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/revive/t9.png",
+    "sha256": "6066EE635108E049499EDBB3B74AF0DEE9415C0D16BA17B874DC3E40C05A0457"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/art/shenghuan.png",
+    "sha256": "985F9A03AD217DA38804CCA0C62C84A6404F3F01784B95F7FDF29CDB0E7BACB4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/dlls/main.dll",
+    "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/enabled.txt",
+    "sha256": "CB040A3E98BEFE88D60F89B97186C02D1BAA181046C02CB80559001D1BC6E0DC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/AI升级/manifest.json",
+    "sha256": "9A76621492048ADAFF3C786A026D2BA7F7B5E21CA70C8BFEE9B881EBADD0A1F0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/manifest.json",
+    "sha256": "D8C8579C27AA427AD500A4ADF87A8FFAA386C2CCE745ED55086AD109C9952786"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/dlls/main.dll",
+    "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/dialog_guard.lua",
+    "sha256": "146F8F78FC686AC9176DE92805EF72E3B174A3E48129367BF2596EBF00DD93B9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/engine_bridge.lua",
+    "sha256": "4CC7F585AEB76F2EEAFCC0E59941B540F405762AC04D1355CE19A16D43E02C51"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/freetravel.lua",
+    "sha256": "26895D777D4412DADD466590EB3C604A2108A9A85FBE861C8929566CC1874C42"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/hud.lua",
+    "sha256": "A9FE2DBD3CC28352B357D96BC66A22EA974E43B478FE626D1ECC56B14272613C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/lang.lua",
+    "sha256": "69AA0B113891B58683435FFD333E1A823C1EE55F4DE650264266B6004E98E64F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/lang_ar.lua",
+    "sha256": "0F34065B13A4AE79CF690141E56CDD13665304C407489B5CDC186FCFD2166E48"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/local_interactions.lua",
+    "sha256": "97829E3B86A5EAC8E62B81BC4381A9471A45ABD964D83950DF00426EBA0FF338"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/local_lifecycle.lua",
+    "sha256": "DE6FA92E8B0B2B82B9395DACC9B8132AF44AE6BB917AAF3374787D1E7F361167"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/localcoop.lua",
+    "sha256": "4134CA03C9F0B952BE1EB379ACF24C9DEA404C5ADDDFB06BBD71B2D74D9B6969"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/localfour.lua",
+    "sha256": "0F850BF5A1000BF4D6BDBD698572A85FDDE8C396339CC35F3BCC850BE13048CE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/main.lua",
+    "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_ai.lua",
+    "sha256": "035363432062EAB7E14BD9439D46549B4F008FEB86E6289FEDA23F13CFF2AF5A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_ai_policy.lua",
+    "sha256": "491A9ADCF27C7D54B5DD190EB5D99B22029E7A19FD723205B428C7332E2DACC0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_controls.lua",
+    "sha256": "3B52DCEE69FDB69FDFC3B28C76F4E31C5125304A9BB3BD7D2F841EBFB2806627"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_recovery.lua",
+    "sha256": "49BF4F4FD2F016BFFE759AEA58456F3C0456B82D3DA61F2B37FD2A22F41706C8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_weapons.lua",
+    "sha256": "A3BEB3AA3F350609290674B7ECA2CAAFC15BECDE66783EEB8298DEF05C114DD4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/pbz.lua",
+    "sha256": "94277F97DD3B206804261594BEB598D9D2F59D5FC058477518CA5A460A855EC5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/prologue.lua",
+    "sha256": "AFD9BF2DCB8B9BE2B130F52C0971C0F57A8CC575644D5055E521A90DD9FF4CA9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/status.lua",
+    "sha256": "EC45DBF5630898CE26762E329CCF8F7930B5EEC907B166FB8EB2E533C2DB6345"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/manifest.json",
+    "sha256": "FB2BE7ECB15096F4B99D0A73CE93BF1629A6D331E4B7C4BE52A9405236C12E18"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/dlls/main.dll",
+    "sha256": "41F10818CCD9E6F6FF166A9A01510E96DE87283EA25F72F8D67CD5ED3C611937"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/dialog_guard.lua",
+    "sha256": "146F8F78FC686AC9176DE92805EF72E3B174A3E48129367BF2596EBF00DD93B9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/freetravel.lua",
+    "sha256": "26895D777D4412DADD466590EB3C604A2108A9A85FBE861C8929566CC1874C42"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/hud.lua",
+    "sha256": "4DF9C05866F5D2A803FBC92D4666D0AA9F58514CD3738BC10A8DFF671A3279D4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/lang.lua",
+    "sha256": "69AA0B113891B58683435FFD333E1A823C1EE55F4DE650264266B6004E98E64F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/lang_ar.lua",
+    "sha256": "0F34065B13A4AE79CF690141E56CDD13665304C407489B5CDC186FCFD2166E48"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/localcoop.lua",
+    "sha256": "20350D3CB77F6A962704A8CD21F8B64EC4610F75B8EECCCE3798BF1A62B3E45B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/localfour.lua",
+    "sha256": "4E986E125838CAA472A774C16DC6FE34B4B599B46AB4389CB32A6FF7185EB0CB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/main.lua",
+    "sha256": "A1318EDD97FF514E19B1C92BD4D8CBC098554A1EAAA77F7491502F7705771800"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/party_ai.lua",
+    "sha256": "127E859DAC765F8818A4DFFDF68BA87EF4D2FC63C9DE7E2EED7CF193EB88699B"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/party_ai_policy.lua",
+    "sha256": "491A9ADCF27C7D54B5DD190EB5D99B22029E7A19FD723205B428C7332E2DACC0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/party_controls.lua",
+    "sha256": "B1BAAB709DC6C31470F2D440F7BB7E4F305C19EE95E06392B5A9E257F76B4C9D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/party_recovery.lua",
+    "sha256": "49BF4F4FD2F016BFFE759AEA58456F3C0456B82D3DA61F2B37FD2A22F41706C8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/party_weapons.lua",
+    "sha256": "A3BEB3AA3F350609290674B7ECA2CAAFC15BECDE66783EEB8298DEF05C114DD4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/pbz.lua",
+    "sha256": "8E1AA4A976850B5ABDB629B45B16D62934A19196AAC8E573CEEA0BFA692B492D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/prologue.lua",
+    "sha256": "50B496EB651B06CA63F3DD1B8E32BA86E828F084B22C61FC7C4210D2DA1EFCCD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/stable/payload/Scripts/status.lua",
+    "sha256": "E88FD4D0CF0AB0839FF98EFF3C846755F4F9245D41115195E223EBF6C05057CD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/四人设备设置.exe",
+    "sha256": "73196440FD277E66B234195815106A996F713918D635EF53C412D45161D77174"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/第三方致谢.txt",
+    "sha256": "A6A2AD696F7D49F27AC71F64EB3B9F55E1BBFCB22765B1CEAB7BAC5266595DA3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PartySetup/第三方许可/UE4SS-LICENSE.txt",
+    "sha256": "99E1D8F8B7CB68E8B2313380AE3B0C8115E39DFBC443FCF21FD67AB74CE1D57E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/PhantomPact.ini",
+    "sha256": "73B5977AF7AACE1F2EE25C4F2D51D1DFEAB208DE23256AADDF54C1C877F8A433"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/arena.lua",
+    "sha256": "1BCCDDA7584AD2AA9E4CFBDC5260C5348F2112B2827957CF27A7A72B2BDDA226"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/arenas.lua",
+    "sha256": "BA16742EA3F726757595016845B2D026C5737B6A7F82849D5ED97666648E53DA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/arenaui.lua",
+    "sha256": "7A3373ABFB18880B67F3A057A1C80991A30A7ADE7A1F71EC8F762234501AB6AA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/autostart.lua",
+    "sha256": "E4B489027FB7B0E5243E2CE272F470EE5D69EE1FD93EB7D6A71946522D1A37FC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/blockers.lua",
+    "sha256": "8AA230AD50AD798AC028CD874B2E0B656DBF86A2B72CDA0E78F5CE06971B5354"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/bullets.lua",
+    "sha256": "2E1B3B644936B7F7D9A29E9042C56B36A3DF75F47C7756478C7E1CC31D7ADE10"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/coop.lua",
+    "sha256": "9663C514505FC5D088969651DEC2F7B48902643CCD7F2F88176C4943E4A7E747"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/dialog_guard.lua",
+    "sha256": "146F8F78FC686AC9176DE92805EF72E3B174A3E48129367BF2596EBF00DD93B9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/difficulty.lua",
+    "sha256": "C8CA8AE3B4EAFBCC19C780D7B76B11713A2EDCF1EE6366423C15F5D05F332E4A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/engine_bridge.lua",
+    "sha256": "4CC7F585AEB76F2EEAFCC0E59941B540F405762AC04D1355CE19A16D43E02C51"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/flowsync.lua",
+    "sha256": "52BFCFF661F9A2E3AF223AFA52E9A785C4AB2023E3AC2E95433AFDC602F823F3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/freetravel.lua",
+    "sha256": "26895D777D4412DADD466590EB3C604A2108A9A85FBE861C8929566CC1874C42"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/hitfx.lua",
+    "sha256": "A363DCFA59D5BE467A156F592F370A7B00B2B46CAEAE77A9037049FDAB0756A4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/hud.lua",
+    "sha256": "A9FE2DBD3CC28352B357D96BC66A22EA974E43B478FE626D1ECC56B14272613C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/lang.lua",
+    "sha256": "69AA0B113891B58683435FFD333E1A823C1EE55F4DE650264266B6004E98E64F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/lang_ar.lua",
+    "sha256": "0F34065B13A4AE79CF690141E56CDD13665304C407489B5CDC186FCFD2166E48"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/local_interactions.lua",
+    "sha256": "97829E3B86A5EAC8E62B81BC4381A9471A45ABD964D83950DF00426EBA0FF338"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/local_lifecycle.lua",
+    "sha256": "DE6FA92E8B0B2B82B9395DACC9B8132AF44AE6BB917AAF3374787D1E7F361167"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/localcoop.lua",
+    "sha256": "4134CA03C9F0B952BE1EB379ACF24C9DEA404C5ADDDFB06BBD71B2D74D9B6969"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/localfour.lua",
+    "sha256": "0F850BF5A1000BF4D6BDBD698572A85FDDE8C396339CC35F3BCC850BE13048CE"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/localparty_config.lua",
+    "sha256": "E18F63220B673B9A42D049958D36A9EF8D1B04D34F39AD5D7C4B26929DE2C2A1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/main.lua",
+    "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/mapfog.lua",
+    "sha256": "E4B156030CDEF2702719AF597008AF801210E2C2E9F3E887EFB863A0A8AA50CA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/mapicon.lua",
+    "sha256": "64E82693A7214522C9B686880E8135BD2A4717982D1ECCF42498334ACC4FE7E6"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/moves.lua",
+    "sha256": "42F96B73BD6E783EE65DDCE4A29B31C5C6E8710A91AE98FDEE66B3C77FDAD9AA"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/onlinepanel.lua",
+    "sha256": "FDFCD372DDCB2D58B90A84114DF3FA899AC10DE83C70499BC19EEABA96141002"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/panel.lua",
+    "sha256": "CBE670489F83770DE1B1CEE5B0460D1E1EC0F88A8766E02B1CD7340FC6AFAC74"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/partner.lua",
+    "sha256": "896FB64CC91430C24BF49CF111BD797B5AFFC2942601A38D7E86B69EE76BE801"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/party_ai.lua",
+    "sha256": "035363432062EAB7E14BD9439D46549B4F008FEB86E6289FEDA23F13CFF2AF5A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/party_ai_policy.lua",
+    "sha256": "491A9ADCF27C7D54B5DD190EB5D99B22029E7A19FD723205B428C7332E2DACC0"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/party_controls.lua",
+    "sha256": "3B52DCEE69FDB69FDFC3B28C76F4E31C5125304A9BB3BD7D2F841EBFB2806627"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/party_recovery.lua",
+    "sha256": "49BF4F4FD2F016BFFE759AEA58456F3C0456B82D3DA61F2B37FD2A22F41706C8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/party_weapons.lua",
+    "sha256": "A3BEB3AA3F350609290674B7ECA2CAAFC15BECDE66783EEB8298DEF05C114DD4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/pbz.lua",
+    "sha256": "94277F97DD3B206804261594BEB598D9D2F59D5FC058477518CA5A460A855EC5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/prologue.lua",
+    "sha256": "AFD9BF2DCB8B9BE2B130F52C0971C0F57A8CC575644D5055E521A90DD9FF4CA9"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/puppets.lua",
+    "sha256": "2DE06D164AC162FC6630EE3B26C57DFEB46DA0C3446B2757BDB5FFEC3D8D106A"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/pvp.lua",
+    "sha256": "4FC01C07010903A9CC1302599E80FEE2B63D1084FDD476B3ED8BD270586B2BEF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/pvppanel.lua",
+    "sha256": "79B8835AB1362BD5D8D5C8AC6B483A1DB57F5C7478D6E7EF85B78B01943FE19C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/qte.lua",
+    "sha256": "945986FCDB1726FEEF59CB7F4DCA68CE66100E57AE7F96272D984D2418F4B822"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/revive.lua",
+    "sha256": "9E3343801D018589FF8E2D11655A69C219B61E9FD6F51717236789D339365958"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/rules.lua",
+    "sha256": "170C60F4135028CF9FED8D499CEF91A24EA7E2C8B1C02F27526A5CC8E3F00669"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/scaling.lua",
+    "sha256": "C54CA9B67C0CB39DECBBA3619AA5B925A9332E9BC5E118E0CB179D9EA767B6B7"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/status.lua",
+    "sha256": "EC45DBF5630898CE26762E329CCF8F7930B5EEC907B166FB8EB2E533C2DB6345"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/story.lua",
+    "sha256": "9E019AAB597B9682D94B0CC6EA8A4F59BC57B95854F396BFA4AF7B9E12132854"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/storydata.lua",
+    "sha256": "E9964F413E69213F09471F3B628FB6B0ED41C7B851D26D9BC0E8C43DD33BFF95"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/twins.lua",
+    "sha256": "F23DAAE26BDAEB1CEAB00AFAE75545C580FD7F5E399598AB5A451F9C200BC276"
+  },
+  {
+    "path": "ue4ss/Mods/PBZCoop/Scripts/units.lua",
+    "sha256": "650F86A95BD01E362BC448CECE4B0B523E767A7891EA0B666926D3AC7ED801B3"
+  },
+  {
+    "path": "ue4ss/Mods/PBZPartyPower/enabled.txt",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "path": "ue4ss/Mods/PBZPartyPower/Scripts/main.lua",
+    "sha256": "85286CFBEA80FC5DE677FF6F4837744B4FDFA2888BECAEFD627D36908258D303"
+  },
+  {
+    "path": "ue4ss/Mods/PBZPartyPower/Scripts/power.lua",
+    "sha256": "06472304EDD17EBD374F23BA5543568081D13A4F01228A5048D546A91D86658E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/controls.json",
+    "sha256": "A3EA266276913CAE08E0C5D206C7E12F551D9BC2B3625F84298313EDCAE6EA37"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/enabled.txt",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Models/README.txt",
+    "sha256": "C1E6B597BCCF195C341EE9EBE0FAB23E3313153F63EE19A8C9A16AF237883CBC"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/paths.json",
+    "sha256": "FAB31170EBB81DE77E72C2FAC617AFC77FDDC31D76DAB41D957FDF9F9EB5268C"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/player_skins.txt",
+    "sha256": "2BB973016E8B44C67D1B71B1285FA2B4E296FD6BAB61E0EF92B549CBD5700480"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/appearance.lua",
+    "sha256": "384365D0F86FA269C6EBC439FD8425185EB3A609D0AB6A1DE2008C127DCED161"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/controls.lua",
+    "sha256": "28CFA1D50104275ED64DF9445CC8840662A4F221B91C85B957E6315C6C1128B4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/damage_collision.lua",
+    "sha256": "29DB25F5D6AFBD01653BBE9ED363008FA235FBD6E2220B1E6462A18AB41DEB92"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/json.lua",
+    "sha256": "0EACCDA57FABC0330736DE25F45CF589821A42B5E0FE02E4E3125F7DC0BF2B7E"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/main.lua",
+    "sha256": "87A7F822E20FA883FD1481E8EB90E8D1463C8392CB56C091EE045141B028B1C4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/native_appearance.lua",
+    "sha256": "8E4DB37EAA7C1CEA163693207D71265C462836AAEFF0242FB5FF2C166A5914DD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/paint.lua",
+    "sha256": "F7250554D01D273FBD8CC8F7A8C020387726196BF1989E2B1E3631834C626CDD"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/player_profiles.lua",
+    "sha256": "7E68F6ACEB11DA25CE3A8E3C710124260F0AAC7ABEC644AD8FA96C9B88A90FBF"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/profile_config.lua",
+    "sha256": "80DAFEF4B0EF7A0C92553360B4748EC052B44FDDE57BF97870D9E445843254EB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/profiles.lua",
+    "sha256": "7C9334E765333FF73C4275E5B0B85DD140F8803D1B7F5E73033E89AC16AB00E1"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Scripts/web_skins.lua",
+    "sha256": "FF0521111C720C1951C98DEF688198CA7A906B973858DFE36461FD058D69F6FB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/State/README.txt",
+    "sha256": "FFE4727D5CE361D49EA1B67E738DC83F1CD540CB0E50D1DCFEF92CCB5B5323ED"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/Tools/PBZCinematicAudio.dll",
+    "sha256": "1297CC444B2C98DDF23419E90C0DD9647F5340A24B85815BA23B5E4476BE06AB"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/chenchen-palette.png",
+    "sha256": "5EE92908ACE91BD48C21F5CC5AA255EB363EDC2EA3B9E09341D7A41381DBF5C5"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/chenchen.json",
+    "sha256": "749D2599CA56E63F41E55EB1681E2A64CA491007288B9336EF9D8B34D00F957F"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/fengfeng-palette.png",
+    "sha256": "55CDCE345EB6E534EA733A9C27578D0EC4DD88F7EB188FEBA5017A9520FCB0F8"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/fengfeng.json",
+    "sha256": "D78F7FA0D4289D1F360A89BCC20BAA376706B8070776FA8CE87316D11CCADC95"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/reference-contract.json",
+    "sha256": "0C1EE35055128C7098A55F967DE425130D194E49CABF29A3486860753D7BB875"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/xiaobao-palette.png",
+    "sha256": "9B077F8FCBC2FEE4CFD5B4057800C7C0F753DFF39212C5754C04217631AE7A54"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/xiaobao.json",
+    "sha256": "CF41656CB286CDB0E904388D0AA54EFA64E233EB52D5A7B4FA4AD3B52A31A2B4"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/zhubajie-palette.png",
+    "sha256": "161F7E2DB4422E342902E6E9D0C06AD8535AD99A604FEC3709BA7B3BB34ADC5D"
+  },
+  {
+    "path": "ue4ss/Mods/PBZWardrobe/WebSkins/Data/zhubajie.json",
+    "sha256": "C765D1185FCA006CD3FC19BFA68019650FCCE09CE605897C21DC58C43137AB2C"
+  },
+  {
+    "path": "ue4ss/Mods/shared/UEHelpers/UEHelpers.lua",
+    "sha256": "7476F02EEF0C87BFEAB169F2FFE2E704363FAEAAE4BF9F1BDA574B1E34F4A0E9"
+  },
+  {
+    "path": "ue4ss/UE4SS-settings.ini",
+    "sha256": "C96A3B1AC2F29F4ACA3C72198EB557075EE30FC1D1186C332A025A8D2E66BD48"
+  },
+  {
+    "path": "ue4ss/UE4SS.dll",
+    "sha256": "3843D81A8280096B0DE3C750EEBF15507E374C250DC551CBF07E7BE7ACC1E2BA"
+  },
+  {
+    "path": "ue4ss/UE4SS_SDK_Backends/UE4SS.json",
+    "sha256": "6B8C1725FF59A318B812D5952F63107778B4CEB22B882B297A3666EE9E06C8FF"
+  },
+  {
+    "path": "ue4ss/UE4SS_Signatures/GNatives.lua",
+    "sha256": "F8685588CF8679A2C9022DE19E32DE1A7CD691ADF2FE47C95443BF030CD09257"
+  },
+  {
+    "path": "ue4ss/UE4SS_Signatures/GUObjectArray.lua",
+    "sha256": "26192D7F183BF1AE8BFBFE0BE0596C5117B34D35A58917CFE8A8378ACFC84AB5"
+  }
+]

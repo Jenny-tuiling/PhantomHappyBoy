@@ -1,0 +1,6 @@
+﻿PBZCoop : 1
+PBZWardrobe : 1
+PBZPartyPower : 1
+CheatManagerEnablerMod : 1
+ConsoleCommandsMod : 1
+ConsoleEnablerMod : 1

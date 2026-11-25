@@ -1,0 +1,86 @@
+{
+  "id": "stable",
+  "label": "稳定版 1.7.3＋现有补丁",
+  "files": [
+    {
+      "path": "Scripts/dialog_guard.lua",
+      "sha256": "146F8F78FC686AC9176DE92805EF72E3B174A3E48129367BF2596EBF00DD93B9"
+    },
+    {
+      "path": "Scripts/engine_bridge.lua",
+      "sha256": null
+    },
+    {
+      "path": "Scripts/freetravel.lua",
+      "sha256": "26895D777D4412DADD466590EB3C604A2108A9A85FBE861C8929566CC1874C42"
+    },
+    {
+      "path": "Scripts/hud.lua",
+      "sha256": "4DF9C05866F5D2A803FBC92D4666D0AA9F58514CD3738BC10A8DFF671A3279D4"
+    },
+    {
+      "path": "Scripts/lang.lua",
+      "sha256": "69AA0B113891B58683435FFD333E1A823C1EE55F4DE650264266B6004E98E64F"
+    },
+    {
+      "path": "Scripts/lang_ar.lua",
+      "sha256": "0F34065B13A4AE79CF690141E56CDD13665304C407489B5CDC186FCFD2166E48"
+    },
+    {
+      "path": "Scripts/local_interactions.lua",
+      "sha256": null
+    },
+    {
+      "path": "Scripts/local_lifecycle.lua",
+      "sha256": null
+    },
+    {
+      "path": "Scripts/localcoop.lua",
+      "sha256": "20350D3CB77F6A962704A8CD21F8B64EC4610F75B8EECCCE3798BF1A62B3E45B"
+    },
+    {
+      "path": "Scripts/localfour.lua",
+      "sha256": "4E986E125838CAA472A774C16DC6FE34B4B599B46AB4389CB32A6FF7185EB0CB"
+    },
+    {
+      "path": "Scripts/main.lua",
+      "sha256": "A1318EDD97FF514E19B1C92BD4D8CBC098554A1EAAA77F7491502F7705771800"
+    },
+    {
+      "path": "Scripts/party_ai.lua",
+      "sha256": "127E859DAC765F8818A4DFFDF68BA87EF4D2FC63C9DE7E2EED7CF193EB88699B"
+    },
+    {
+      "path": "Scripts/party_ai_policy.lua",
+      "sha256": "491A9ADCF27C7D54B5DD190EB5D99B22029E7A19FD723205B428C7332E2DACC0"
+    },
+    {
+      "path": "Scripts/party_controls.lua",
+      "sha256": "B1BAAB709DC6C31470F2D440F7BB7E4F305C19EE95E06392B5A9E257F76B4C9D"
+    },
+    {
+      "path": "Scripts/party_recovery.lua",
+      "sha256": "49BF4F4FD2F016BFFE759AEA58456F3C0456B82D3DA61F2B37FD2A22F41706C8"
+    },
+    {
+      "path": "Scripts/party_weapons.lua",
+      "sha256": "A3BEB3AA3F350609290674B7ECA2CAAFC15BECDE66783EEB8298DEF05C114DD4"
+    },
+    {
+      "path": "Scripts/pbz.lua",
+      "sha256": "8E1AA4A976850B5ABDB629B45B16D62934A19196AAC8E573CEEA0BFA692B492D"
+    },
+    {
+      "path": "Scripts/prologue.lua",
+      "sha256": "50B496EB651B06CA63F3DD1B8E32BA86E828F084B22C61FC7C4210D2DA1EFCCD"
+    },
+    {
+      "path": "Scripts/status.lua",
+      "sha256": "E88FD4D0CF0AB0839FF98EFF3C846755F4F9245D41115195E223EBF6C05057CD"
+    },
+    {
+      "path": "dlls/main.dll",
+      "sha256": "41F10818CCD9E6F6FF166A9A01510E96DE87283EA25F72F8D67CD5ED3C611937"
+    }
+  ]
+}

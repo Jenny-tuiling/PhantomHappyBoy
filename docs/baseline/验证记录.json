@@ -1,0 +1,35 @@
+﻿{
+  "date": "2026-11-25",
+  "compiled_lua": 104,
+  "installer_tests": [
+    "preflight",
+    "fresh complete installation",
+    "duplicate blocked",
+    "modified file protected",
+    "uninstall preserves game",
+    "damaged payload blocked",
+    "path traversal blocked",
+    "wrong build blocked"
+  ],
+  "launcher_checks": 183,
+  "base_roundtrip": "PASS stable -> local, .NET Framework launcher reflection",
+  "gameplay_and_input_hashes": "unchanged from supplied 2026.11.22 package",
+  "skin_data_hashes": "unchanged",
+  "wardrobe_dependency_closure": [
+    "appearance",
+    "controls",
+    "damage_collision",
+    "json",
+    "main",
+    "native_appearance",
+    "paint",
+    "player_profiles",
+    "profile_config",
+    "profiles",
+    "web_skins"
+  ],
+  "github_published": false,
+  "gameplay_validation": "user requested reverting latest respawn input patch; previous baseline selected for publication; not a full gameplay certification",
+  "release_baseline": "2026.11.25 cleanup; rejected respawn input patch excluded",
+  "known_respawn_issue": "teammate revival may interrupt player 1 action"
+}

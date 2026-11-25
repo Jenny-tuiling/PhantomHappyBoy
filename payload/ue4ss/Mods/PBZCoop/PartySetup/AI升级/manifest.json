@@ -1,0 +1,60 @@
+﻿{
+  "schemaVersion": 1,
+  "packageId": "pbz-party-ai-20261117",
+  "edition": "小朋友快乐玩版 · 本地测试底座 2026.11.22",
+  "game": {
+    "path": "platform/steam/PBZ.exe",
+    "sha256": "4415933CE33476F14C837ABB61A1B60AF8B78CD81783896501913A7AAC69E423"
+  },
+  "guards": [
+    {
+      "path": "Scripts/main.lua",
+      "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+    },
+    {
+      "path": "Scripts/pbz.lua",
+      "sha256": "94277F97DD3B206804261594BEB598D9D2F59D5FC058477518CA5A460A855EC5"
+    },
+    {
+      "path": "Scripts/localparty_config.lua",
+      "sha256": "E18F63220B673B9A42D049958D36A9EF8D1B04D34F39AD5D7C4B26929DE2C2A1"
+    }
+  ],
+  "files": [
+    {
+      "path": "dlls/main.dll",
+      "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7",
+      "baselineSha256": "29B2B7B8850FBA71C143C2DB1F77AD9A50B88BA29B7C0D427CEBC742C474650E"
+    },
+    {
+      "path": "Scripts/localcoop.lua",
+      "sha256": "4134CA03C9F0B952BE1EB379ACF24C9DEA404C5ADDDFB06BBD71B2D74D9B6969",
+      "baselineSha256": "C6B95F03B450E5B13120FB6339A0A6BAD0FFA83E18300AC60D4C961DBCE87933"
+    },
+    {
+      "path": "Scripts/localfour.lua",
+      "sha256": "0F850BF5A1000BF4D6BDBD698572A85FDDE8C396339CC35F3BCC850BE13048CE",
+      "baselineSha256": "9DA095F9BE865ED7F89543CA42B9C317ABF7B26BCE1FA79B16D81D16087822DC"
+    },
+    {
+      "path": "Scripts/party_ai.lua",
+      "sha256": "035363432062EAB7E14BD9439D46549B4F008FEB86E6289FEDA23F13CFF2AF5A",
+      "baselineSha256": null
+    },
+    {
+      "path": "Scripts/party_ai_policy.lua",
+      "sha256": "491A9ADCF27C7D54B5DD190EB5D99B22029E7A19FD723205B428C7332E2DACC0",
+      "baselineSha256": null
+    },
+    {
+      "path": "Scripts/party_controls.lua",
+      "sha256": "3B52DCEE69FDB69FDFC3B28C76F4E31C5125304A9BB3BD7D2F841EBFB2806627",
+      "baselineSha256": "E07326E33CFFBC96D91675E3E4C26947BE9F4B81E971769BA05E1B71404DEBC3"
+    },
+    {
+      "path": "Scripts/party_recovery.lua",
+      "sha256": "49BF4F4FD2F016BFFE759AEA58456F3C0456B82D3DA61F2B37FD2A22F41706C8",
+      "baselineSha256": null
+    }
+  ]
+}
