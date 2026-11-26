@@ -254,7 +254,7 @@ partial class FourPlayerSetup : Form {
         CalibrationTick();
         for(int s=0;s<4;s++)if(rumbleUntil[s]!=DateTime.MinValue && DateTime.UtcNow>=rumbleUntil[s]){Vibration v=new Vibration();XInputSetState((uint)s,ref v);rumbleUntil[s]=DateTime.MinValue;}
         // Automatic joining never reassigns a confirmed seat, including disconnected seats.
-        if(!gameStarted && !launchPending && !observerOnly && fourMode.Checked && ContainsFocus){
+        if(!gameStarted && !launchPending && !observerOnly && (fourMode.Checked || mode.SelectedIndex==0) && ContainsFocus){
             for(int s=0;s<4;s++)if(pairing<0 && connected[s] && wasConnected[s] && (states[s].pad.buttons&4096)!=0 && (previous[s]&4096)==0){
                 int owner=Array.IndexOf(slots,s);
                 if(owner>=0 && checkedParts[owner]>0){if(owner<SelectedPlayers)checkedParts[owner]=7;continue;}
@@ -299,7 +299,7 @@ partial class FourPlayerSetup : Form {
         int count=SelectedPlayers;
         bool four=screens.Length>=count;
         if(four)for(int i=1;i<count;i++)four &= screens[i].Bounds.Left==screens[i-1].Bounds.Right && screens[i].Bounds.Top==screens[0].Bounds.Top && screens[i].Bounds.Size==screens[0].Bounds.Size;
-        monitors.Text=count==1?"单人模式：使用游戏原来的显示设置":four?"✓ 使用从左到右的前 "+count+" 块显示器":"请准备 "+count+" 块等尺寸、横向相邻的显示器";
+        monitors.Text=count==1?"单人模式：本地底座只接收1号绑定的手柄，保留校准和断线重连":four?"✓ 使用从左到右的前 "+count+" 块显示器":"请准备 "+count+" 块等尺寸、横向相邻的显示器";
         bool ready=four && checkedParts.Take(count).All(v=>v==7) && slots.Take(count).All(s=>s==-1 || (s>=0 && connected[s]));
         launch.Enabled=!Busy;
         launch.Text=launchPending?"正在等待游戏启动…":gameStarted?"游戏运行中":fourMode.Checked?(ready?"启动 ":"检查并启动 ")+count+" 人模式":"启动单人模式";
@@ -419,7 +419,7 @@ partial class FourPlayerSetup : Form {
         else if(launchPending && now>=launchDeadline){launchPending=false;ownsBindings=false;observerOnly=false;message.Text="未检测到游戏成功启动。请检查Steam提示后重试；启动按钮已恢复。";}
     }
     string ReadinessProblem(){
-        if(!fourMode.Checked)return "";
+        if(!fourMode.Checked && mode.SelectedIndex==1)return "";
         int count=SelectedPlayers;
         var missing=new System.Collections.Generic.List<string>();
         Screen[] screens=Screen.AllScreens.OrderBy(s=>s.Bounds.Left).ToArray();

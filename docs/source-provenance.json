@@ -1,6 +1,7 @@
 {
   "baseline": "2026.11.25-clean-test",
-  "runtime_changed": false,
+  "version": "2026.11.26-single-player-fixes",
+  "runtime_changed": true,
   "files": [
     {
       "path": "src/mods/PBZCoop/Scripts/autostart.lua",
@@ -40,7 +41,7 @@
     },
     {
       "path": "src/mods/PBZCoop/Scripts/main.lua",
-      "sha256": "629ef285c2f1345f8899448dbc225f1cf0047ed22f8aab199cbd6252689c8b98"
+      "sha256": "bc6c311b9bc7e12fe57c4dede0b71729e4a5472021981b6f703a60c03dc313c9"
     },
     {
       "path": "src/mods/PBZCoop/Scripts/party_ai.lua",
@@ -76,7 +77,7 @@
     },
     {
       "path": "src/mods/PBZPartyPower/Scripts/main.lua",
-      "sha256": "85286cfbea80fc5de677ff6f4837744b4fdfa2888becaefd627d36908258d303"
+      "sha256": "30a13e88c5372817eef3009d939e18a93ea9bdcd8e7e0a05f1b97b769e137c00"
     },
     {
       "path": "src/mods/PBZPartyPower/Scripts/power.lua",
@@ -140,7 +141,7 @@
     },
     {
       "path": "src/native-local/pad_route.hpp",
-      "sha256": "27cc2995c1d8c36b88f4a7f04ee1fe8298d51df7075c27562d5ae7a000eb7789"
+      "sha256": "19680b12944f1084a162fdb75e0465c27225924a88cb435006f8aee01381806f"
     },
     {
       "path": "src/native-local/party_ai.hpp",
@@ -148,7 +149,7 @@
     },
     {
       "path": "src/native-local/party_input.hpp",
-      "sha256": "b857f6e013682f2fc374f6049eb0deb87ac6c81316e03fae2916933b3167471b"
+      "sha256": "9f5f0dbd4cde514feca211935cbc4137e1a86805dc7b77f7d48eb7772695f78a"
     },
     {
       "path": "src/native-local/party_recovery_input.hpp",
@@ -161,6 +162,10 @@
     {
       "path": "src/native-local/screens.hpp",
       "sha256": "083736ed129903b2e17cf0bd88f32e078e04f14d7a83e27cc3868d68284696fa"
+    },
+    {
+      "path": "src/native-local/single_input.hpp",
+      "sha256": "655198e3664ff034838fb084336dacf5e71eda33bfbff1c6526700a23397a51c"
     },
     {
       "path": "src/native-local/test_ai_focus.cpp",
@@ -211,6 +216,10 @@
       "sha256": "38991302b715523abd7ec2f4089fee81a4cdc7edbb317fb05e0c0ca7de584fc4"
     },
     {
+      "path": "src/native-local/test_single_input.cpp",
+      "sha256": "88b2b905f9421e53a338e3d178d77b6cf75cf696cc995804e74f68dfabefa156"
+    },
+    {
       "path": "src/native-local/test_ui_requests.cpp",
       "sha256": "62637ff07961b1f1b247ba64bb64a0a7cf02a812a446fdd73a054d243ff80502"
     },
@@ -240,15 +249,15 @@
     },
     {
       "path": "src/party-setup/CompactUi.cs",
-      "sha256": "e7ebf549f8e92eeffc70fe7426f1e57f30be70925f5d5e45b03e0d11500e9f4d"
+      "sha256": "513290b7a180084890a364226960cc19f659784b976a7f1eb1f6dc78564bacd0"
     },
     {
       "path": "src/party-setup/FourPlayerSetup.cs",
-      "sha256": "d4c30a8a30fa09adf06a16b036a0a07e0a275f14a8acdb7ac66c488ef694f66f"
+      "sha256": "74bc4155dc23d3ec131d8a63c27184ce91528848cb5e924777ec8dbe0f731d65"
     },
     {
       "path": "src/party-setup/LauncherTests.cs",
-      "sha256": "9aacfc689f0f78504673665a9bec80e1097a58ae92511f4733a01fc3bf348bc9"
+      "sha256": "c3ab97aa824d30b9eb6f3074bce920e26fe5b67a1d483e7d9bcef34e1e16adc1"
     },
     {
       "path": "src/party-setup/RecoveryTests.cs",
@@ -268,11 +277,11 @@
     },
     {
       "path": "src/party-setup/TempPowerTests.cs",
-      "sha256": "d82f6f32899dc2dd6dde84b40e870c6f0f8f3b3ca6c531919dd2be2f55a71060"
+      "sha256": "d21cc72be13d3a3f28c3aa6f007f4df4da66e0222d97535cd1eea33ba131d91c"
     },
     {
       "path": "src/party-setup/TempPowerUi.cs",
-      "sha256": "677395c0b2e2e8258755d18739790b905cc5acfaacefbcdbd9863cafd17440a8"
+      "sha256": "cc027f266aa0546f4986ee1c57ab188967b2c7e92d67345be38281f92e83a6f2"
     }
   ]
 }

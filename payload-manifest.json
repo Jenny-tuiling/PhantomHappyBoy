@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "path": "dwmapi.dll",
     "sha256": "21FAFB3E49958E2B16721D57D5C1AF3EFCAAAE6D91A430BB6124A67E80F5FB42"
@@ -2081,7 +2081,7 @@
   },
   {
     "path": "ue4ss/Mods/PBZCoop/dlls/main.dll",
-    "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7"
+    "sha256": "6ADEB5FE2B5E01567F3C4F64D5F5B050E56E9ABEF7C488A59C276790DE9D91DF"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/enabled.txt",
@@ -2089,15 +2089,15 @@
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/AI升级/manifest.json",
-    "sha256": "9A76621492048ADAFF3C786A026D2BA7F7B5E21CA70C8BFEE9B881EBADD0A1F0"
+    "sha256": "D4A8397770A8AC5EA9ED6FC591472BD4F1169B7532CBCD5E8750DAD4C71276B6"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/manifest.json",
-    "sha256": "D8C8579C27AA427AD500A4ADF87A8FFAA386C2CCE745ED55086AD109C9952786"
+    "sha256": "47C6922FBF09F36822B6106F326C57246C8CD03A14C2BF775057D66C0C04A294"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/dlls/main.dll",
-    "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7"
+    "sha256": "6ADEB5FE2B5E01567F3C4F64D5F5B050E56E9ABEF7C488A59C276790DE9D91DF"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/dialog_guard.lua",
@@ -2141,7 +2141,7 @@
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/main.lua",
-    "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+    "sha256": "BC6C311B9BC7E12FE57C4DEDE0B71729E4A5472021981B6F703A60C03DC313C9"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/BaseVersions/local/payload/Scripts/party_ai.lua",
@@ -2249,7 +2249,7 @@
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/四人设备设置.exe",
-    "sha256": "73196440FD277E66B234195815106A996F713918D635EF53C412D45161D77174"
+    "sha256": "7DE0B93AF0D30DD0130B315776335101EF1FD91F0E2D03282385E5EAAFF465B9"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/PartySetup/第三方致谢.txt",
@@ -2349,7 +2349,7 @@
   },
   {
     "path": "ue4ss/Mods/PBZCoop/Scripts/main.lua",
-    "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+    "sha256": "BC6C311B9BC7E12FE57C4DEDE0B71729E4A5472021981B6F703A60C03DC313C9"
   },
   {
     "path": "ue4ss/Mods/PBZCoop/Scripts/mapfog.lua",
@@ -2457,7 +2457,7 @@
   },
   {
     "path": "ue4ss/Mods/PBZPartyPower/Scripts/main.lua",
-    "sha256": "85286CFBEA80FC5DE677FF6F4837744B4FDFA2888BECAEFD627D36908258D303"
+    "sha256": "30A13E88C5372817EEF3009D939E18A93EA9BDCD8E7E0A05F1B97B769E137C00"
   },
   {
     "path": "ue4ss/Mods/PBZPartyPower/Scripts/power.lua",

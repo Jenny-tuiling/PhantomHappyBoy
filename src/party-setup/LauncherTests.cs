@@ -43,6 +43,12 @@ class LauncherTests {
         bool existed=File.Exists(progress);string before=existed?File.ReadAllText(progress):null;
         using(FourPlayerSetup form=new FourPlayerSetup(true)){
             Check(!Get<Timer>(form,"timer").Enabled,"preview timer stopped");
+            Get<CheckBox>(form,"fourMode").Checked=false;Get<ComboBox>(form,"mode").SelectedIndex=0;
+            Set(form,"slots",new[]{1,0,2,3});Set(form,"connected",new[]{true,true,true,true});Set(form,"checkedParts",new[]{0,0,0,0});
+            Check(((string)Call(form,"ReadinessProblem")).Contains("A"),"single pad requires explicit claim");
+            Set(form,"checkedParts",new[]{7,0,0,0});Check((string)Call(form,"ReadinessProblem")=="","single selected pad accepts absent guest tests");
+            Set(form,"connected",new[]{true,false,true,true});Check(((string)Call(form,"ReadinessProblem")).Contains("未连接"),"single disconnected selection cannot fall back to another pad");
+            Get<ComboBox>(form,"mode").SelectedIndex=1;Check((string)Call(form,"ReadinessProblem")=="","single keyboard does not require a gamepad");
             Check(Get<string[]>(form,"skinIds").SequenceEqual(new[]{"pbz_original","chenchen","xiaobao","zhubajie","fengfeng"}),"only requested skins retained");
             foreach(string method in new[]{"Poll","WatchGameAndLock","WriteBindings","SaveCalibration","CalibrationTick","StartGame","ChooseSkins","ChooseWeapons","RecheckAi"}){Call(form,method);Check(true,"preview inert entry "+method);}
             Set(form,"pairing",2);Set(form,"calibrating",3);Set(form,"gameStarted",false);Set(form,"launchPending",false);Set(form,"ownsBindings",false);Set(form,"observerOnly",false);

@@ -115,7 +115,14 @@ DWORD WINAPI watch(void* dir_) {
     const std::wstring dir = *static_cast<std::wstring*>(dir_);
     const std::wstring address_file = dir + L"\\vp.txt", stay_file = dir + L"\\pad_stay.txt";
     DeleteFileW(address_file.c_str());              // a crashed run's addresses mean nothing now
-    while (GetFileAttributesW(address_file.c_str()) == INVALID_FILE_ATTRIBUTES) Sleep(POLL_MS);
+    const std::string singleToken=std::to_string(GetCurrentProcessId())+"-"+std::to_string(GetTickCount64());
+    localio::write_atomic(dir+L"\\single_input_ready.txt","PBZSINGLE1 "+singleToken+"\n");
+    while (GetFileAttributesW(address_file.c_str()) == INVALID_FILE_ATTRIBUTES) {
+        if(partyinput::poll_single(dir,singleToken))drop_raw_gamepads(dir+L"\\single_raw_input_log.txt");
+        Sleep(POLL_MS);
+    }
+    // Entering the existing multiplayer viewport route hands control back to it.
+    AcquireSRWLockExclusive(&partyinput::mutex);partyinput::single.enabled=false;ReleaseSRWLockExclusive(&partyinput::mutex);
     Sleep(POLL_MS);
     unsigned long long viewport = 0, setting = 0;
     FILE* f = nullptr;

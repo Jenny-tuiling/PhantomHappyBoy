@@ -54,6 +54,7 @@ inline void stick(SHORT& x,SHORT& y,int cx,int cy,int dead) {
     double gain=std::min(32767.0,(length-dead)*32767.0/(32767-dead))/length;
     x=static_cast<SHORT>(a*gain);y=static_cast<SHORT>(b*gain);
 }
+#include "single_input.hpp"
 inline void bind_ai(const fourroute::Binding& binding,ULONGLONG now) {
     const bool live=binding.updated && now-binding.updated<1500;
     bool unroute=binding.count>=2 && binding.count<=4;
@@ -135,7 +136,8 @@ inline DWORD WINAPI get(DWORD index,XINPUT_STATE* state) {
     fourroute::Binding binding;
     AcquireSRWLockShared(&fourroute::lock);binding=fourroute::binding;ReleaseSRWLockShared(&fourroute::lock);
     AcquireSRWLockExclusive(&mutex);
-    result=transform(index,result,state,binding,foreground(),GetTickCount64());
+    result=single.enabled ? single.transform(index,result,state,foreground(),calibration)
+                          : transform(index,result,state,binding,foreground(),GetTickCount64());
     ReleaseSRWLockExclusive(&mutex);
     return result;
 }
@@ -172,12 +174,7 @@ inline std::string control_status(int count) {
     // Append-only protocol extension: the existing seven fields retain their meaning.
     return std::to_string(session)+" "+std::to_string(locked)+" "+std::to_string(sequence[1])+" "+std::to_string(sequence[2])+" "+std::to_string(sequence[3])+" "+std::to_string(installed)+" "+std::to_string(count)+" "+std::to_string(recovery.recall)+"\n";
 }
-inline void poll(const std::wstring& dir) {
-    install();
-    const bool keyboardReady=recoverykeys::ensure();
-    fourroute::Binding binding;
-    AcquireSRWLockShared(&fourroute::lock);binding=fourroute::binding;ReleaseSRWLockShared(&fourroute::lock);
-    partyai::Packet aiPacket;const bool hasAi=partyai::read(dir+L"\\party_ai_input.txt",aiPacket);
+inline void read_calibration(const std::wstring& dir) {
     Calibration next[4]{};FILE* f=nullptr;
     if(_wfopen_s(&f,(dir+L"\\four_calibration.txt").c_str(),L"r")==0 && f) {
         bool ok=true;
@@ -189,6 +186,34 @@ inline void poll(const std::wstring& dir) {
         fclose(f);
         if(ok){AcquireSRWLockExclusive(&mutex);std::copy(std::begin(next),std::end(next),calibration);ReleaseSRWLockExclusive(&mutex);}
     }
+}
+inline bool poll_single(const std::wstring& dir,const std::string& token) {
+    FILE* file=_wfsopen((dir+L"\\single_input_request.txt").c_str(),L"rb",_SH_DENYNO);
+    std::string text;
+    if(file){char buffer[161];auto n=fread(buffer,1,sizeof(buffer),file);fclose(file);if(n<=160)text.assign(buffer,n);}
+    AcquireSRWLockExclusive(&mutex);
+    single.accept(text,token);
+    const bool enabled=single.enabled;const int device=single.device;
+    ReleaseSRWLockExclusive(&mutex);
+    if(!enabled)return false;
+    read_calibration(dir);
+    const bool ok=install();
+    static ULONGLONG reported=0;
+    if(GetTickCount64()-reported>=500){
+        reported=GetTickCount64();
+        XINPUT_STATE state{};
+        const bool connected=device==0 || (raw && raw(device-1,&state)==ERROR_SUCCESS);
+        localio::write_atomic(dir+L"\\single_input_status.txt","PBZSINGLE1 "+token+" "+std::to_string(device)+" "+std::to_string(ok)+" "+std::to_string(connected)+"\n");
+    }
+    return ok;
+}
+inline void poll(const std::wstring& dir) {
+    install();
+    const bool keyboardReady=recoverykeys::ensure();
+    fourroute::Binding binding;
+    AcquireSRWLockShared(&fourroute::lock);binding=fourroute::binding;ReleaseSRWLockShared(&fourroute::lock);
+    partyai::Packet aiPacket;const bool hasAi=partyai::read(dir+L"\\party_ai_input.txt",aiPacket);
+    read_calibration(dir);
     AcquireSRWLockExclusive(&mutex);
     auto now=GetTickCount64();
     bool active=foreground();

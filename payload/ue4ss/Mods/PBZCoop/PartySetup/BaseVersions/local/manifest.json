@@ -1,6 +1,6 @@
 {
   "id": "local",
-  "label": "本地测试版 2026.11.22（交互修正版）",
+  "label": "本地测试版（单人输入修复 2026.11.26）",
   "files": [
     {
       "path": "Scripts/dialog_guard.lua",
@@ -44,7 +44,7 @@
     },
     {
       "path": "Scripts/main.lua",
-      "sha256": "629EF285C2F1345F8899448DBC225F1CF0047ED22F8AAB199CBD6252689C8B98"
+      "sha256": "BC6C311B9BC7E12FE57C4DEDE0B71729E4A5472021981B6F703A60C03DC313C9"
     },
     {
       "path": "Scripts/party_ai.lua",
@@ -80,7 +80,7 @@
     },
     {
       "path": "dlls/main.dll",
-      "sha256": "56E4A12285164B08FDDF21F50696AFFB8142638FF1ADFDACA0B5345EE203C7F7"
+      "sha256": "6ADEB5FE2B5E01567F3C4F64D5F5B050E56E9ABEF7C488A59C276790DE9D91DF"
     }
   ],
   "patch": "handshake-hex-normalization-20261121",

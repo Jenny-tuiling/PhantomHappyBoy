@@ -30,6 +30,29 @@ local count=tonumber(config.localplayers)or 1
 local mode=config.localinput or 'four_pads'
 local requested=(config.role or 'off'):lower()=='local' and count>=2 and count<=4 and count%1==0
 if mode~='four_pads' and mode~='keyboard_three_pads'then requested=false;api.log('Invalid input mode; multiplayer refused')end
+-- Publish the single-player choice only for this launch. The native worker
+-- supplies a new per-process token, so stale multiplayer/previous-run files
+-- cannot activate this filter. Never start localfour or alter the main pawn.
+if not requested then
+ local chosen=nil
+ LoopInGameThreadWithDelay(250,function()
+  local ready=io.open(root..'single_input_ready.txt','rb')
+  local text=ready and ready:read(160)or '';if ready then ready:close()end
+  local token=text:match('^PBZSINGLE1 ([%d]+%-[%d]+)%s*$')
+  if not token then return false end
+  if chosen==nil then
+   local binds=io.open(root..'four_bindings.txt','rb')
+   local first=binds and binds:read('*l')or '';if binds then binds:close()end
+   local device=tonumber(first)
+   if device and device>=0 and device<=4 and device%1==0 then chosen=device end
+  end
+  if chosen~=nil then
+   local out=io.open(root..'single_input_request.txt','wb')
+   if out then out:write('PBZSINGLE1 '..token..' '..chosen..'\n');out:close()end
+  end
+  return false
+ end)
+end
 -- Consume the launch choice, preserving personal configuration and single-player default.
 if requested then
  local file=assert(io.open(root..'PhantomPact.ini','rb'));local ini=file:read('a');file:close()

@@ -6,6 +6,9 @@
 **/game-path.txt
 **/four_bindings*.txt
 **/four_calibration*.txt
+**/single_input_ready.txt
+**/single_input_request.txt
+**/single_input_status.txt
 **/full-install-record.json
 **/install-record.json
 **/FourPlayerBackups/

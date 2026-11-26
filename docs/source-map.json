@@ -129,7 +129,7 @@
     "source": "PBZCoop/Scripts/main.lua",
     "location": "src/mods/PBZCoop/Scripts/main.lua",
     "classification": "modified-from-upstream-1.7.3",
-    "sha256": "629ef285c2f1345f8899448dbc225f1cf0047ed22f8aab199cbd6252689c8b98"
+    "sha256": "bc6c311b9bc7e12fe57c4dede0b71729e4a5472021981b6f703a60c03dc313c9"
   },
   {
     "source": "PBZCoop/Scripts/mapfog.lua",
@@ -285,7 +285,7 @@
     "source": "PBZPartyPower/Scripts/main.lua",
     "location": "src/mods/PBZPartyPower/Scripts/main.lua",
     "classification": "local-maintained-module",
-    "sha256": "85286cfbea80fc5de677ff6f4837744b4fdfa2888becaefd627d36908258d303"
+    "sha256": "30a13e88c5372817eef3009d939e18a93ea9bdcd8e7e0a05f1b97b769e137c00"
   },
   {
     "source": "PBZPartyPower/Scripts/power.lua",

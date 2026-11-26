@@ -5,6 +5,12 @@ public class TempPowerTests {
  static int n;static void Check(bool v){if(!v)throw new Exception("TempPower check "+n);n++;}
  public static void Main(){
   TempPowerState s;
+  Check(!TempPowerFiles.CanToggle(null));
+  for(int nplayers=0;nplayers<=4;nplayers++){
+   Check(TempPowerFiles.Parse("PBZPOWER1 session-1 off "+nplayers+" 0 none\n",out s));
+   Check(TempPowerFiles.CanToggle(s)==(nplayers>=1));
+  }
+  Check(TempPowerFiles.Parse("PBZPOWER1 session-1 waiting 0 0 none\n",out s));Check(TempPowerFiles.CanToggle(s));
   Check(TempPowerFiles.Parse("PBZPOWER1 abc-1 off 4 0 none\n",out s));Check(s.State=="off");
   foreach(string bad in new[]{"","PBZPOWER1 a on 2 4 x","PBZPOWER1 a on 5 5 x","PBZPOWER1 a on 4 4 x\non","PBZPOWER1 ../a off 4 0 x","PBZPOWER1 a execute 4 0 x"})Check(!TempPowerFiles.Parse(bad,out s));
   string dir=Path.Combine(Path.GetTempPath(),"PBZ-PowerTests-"+Guid.NewGuid().ToString("N"));Directory.CreateDirectory(dir);

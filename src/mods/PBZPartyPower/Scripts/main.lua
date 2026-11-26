@@ -1,7 +1,6 @@
 -- Independent session-only power controller. Never writes PBZ saves or loads arbitrary requests as Lua.
 local source=debug.getinfo(1,'S').source:sub(2):gsub('\\','/')
 local root=assert(source:match('^(.*)/Scripts/main%.lua$'))..'/'
-local coop=root:gsub('PBZPartyPower/$','PBZCoop/')
 local helpers=require('UEHelpers')
 local factory=dofile(root..'Scripts/power.lua')
 local gs,ability
@@ -26,14 +25,6 @@ local function readSmall(name)
  local f=io.open(root..name,'rb');if not f then return nil end
  local s=f:read(257);f:close();if not s or #s>256 then return nil end;return s
 end
-local function routeCount()
- local f=io.open(coop..'four_route.txt','rb');if not f then return 0 end
- local t=f:read(513);f:close();if not t or #t>512 then return 0 end
- local lines={};for l in t:gmatch('[^\r\n]+')do lines[#lines+1]=l end
- if #lines~=5 then return 0 end
- for i=1,4 do if not lines[i]:match('^%d+ %-?%d+$')then return 0 end end
- local n=tonumber(lines[5]);return n and n>=2 and n<=4 and n%1==0 and n or 0
-end
 local function publish(state,applied)
  -- A launcher/virus scanner can briefly hold this file. A missed heartbeat
  -- must never cancel the user's gameplay setting; retry on the next tick.
@@ -49,14 +40,17 @@ local function tick()
  assert(IsInGameThread(),'Game-thread callback required')
  gs=StaticFindObject('/Script/Engine.Default__GameplayStatics')
  ability=StaticFindObject('/Script/GameplayAbilities.Default__AbilitySystemBlueprintLibrary')
- local pc,p=player1();party.count=routeCount();party.loading=true
- if valid(pc)and valid(p)and valid(ability)and party.count>=2 and p:GetClass():GetFName():ToString():find('BP_Renewal_Hun_')then
+ local pc,p=player1();party.count=0;party.loading=true
+ -- Enumerate the current world's actual local controllers. A route file can
+ -- describe a previous four-player session even when this launch is single.
+ if valid(pc)and valid(p)and valid(ability)and p:GetClass():GetFName():ToString():find('BP_Renewal_Hun_')then
   local present=0
-  for slot=0,party.count-1 do
+  for slot=0,3 do
    local other=gs:GetPlayerController(pc,slot);local body=valid(other)and other.Pawn or nil
+   if valid(other)then party.count=slot+1 end
    if valid(body)and body:GetClass():GetFName():ToString():find('BP_Renewal_Hun_')then present=present+1 end
   end
-  party.loading=present~=party.count
+  party.loading=party.count<1 or present~=party.count
  end
  local command=readSmall('request.txt')
  if command then

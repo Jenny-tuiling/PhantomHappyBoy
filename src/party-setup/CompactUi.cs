@@ -92,7 +92,7 @@ partial class FourPlayerSetup {
         tempPowerButton.Text="开启无敌 ＋ 10倍伤害";
         tempPowerStatus.SetBounds(12,110,650,30);
         power.Controls.OfType<Label>().Last().SetBounds(12,142,650,30);
-        power.Controls.OfType<Label>().Last().Text="全员生效，再点关闭。每次启动游戏默认关闭。";
+        power.Controls.OfType<Label>().Last().Text="单人对1号生效，多人对全员生效；再次点击关闭。重启后默认关闭。";
         keys.AutoScroll=true;keys.Controls.Add(shortcuts);shortcuts.Location=new Point(18,18);
 
         launchFooter=new Panel{Dock=DockStyle.Bottom,Height=104,Width=ClientSize.Width,BackColor=Color.FromArgb(28,35,46)};

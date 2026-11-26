@@ -1,6 +1,6 @@
 # 源码结构与构建范围
 
-本次将 2026.11.25 回退基线整理成直接可安装仓库，不修改游戏运行行为。
+当前为 2026.11.26 单人修复测试版，基于 2026.11.25 回退基线，源码和实际安装载荷同步更新。改动与验证范围见 [UPDATE-2026.11.26.md](UPDATE-2026.11.26.md)。
 
 | 位置 | 内容与来源 |
 |---|---|
@@ -33,8 +33,8 @@ cd build
 cl /nologo /std:c++20 /O2 /MT /EHsc /W3 /utf-8 /LD ..\src\native-local\main_dll.cpp /Fe:main.dll /link /NOLOGO user32.lib
 ```
 
-命令依据基线构建脚本整理，本次仓库整理未重新编译 native，也未证明不同工具链生成字节一致。发布版 DLL 使用原已打包产物。
+本次使用 Visual Studio 2022 Build Tools 的 x64 编译器重新编译本地模块，并运行 native 自动测试。不同工具链生成的二进制字节不保证一致。`single_input.hpp` 由 `party_input.hpp` 在其命名空间内引入，复用同一校准变换；未启用单人会话时沿用原多人路径。
 
 ## 一致性
 
-安装入口和所有 649 项 payload 均保持原字节；tools/verify_package.py 验证完整性。src 与本地发布包源文件的对应见 source-provenance.json。源码构建后需要另外验证再更新载荷和 manifest；不能直接混入另一个版本 DLL。
+安装入口未改；649 项 payload 中受修复影响的程序、脚本和清单已同步更新。tools/verify_package.py 验证完整性；source-provenance.json 记录当前70项源码文件哈希。源码构建后需要另外验证再更新载荷和 manifest；不能直接混入另一个版本 DLL。
